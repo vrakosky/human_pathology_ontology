@@ -1,0 +1,6106 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.4), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "undefined" ],
+    "baseIris" : [ "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology" ],
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology"
+  },
+  "namespace" : [ ],
+  "metrics" : {
+    "classCount" : 268,
+    "objectPropertyCount" : 47,
+    "datatypePropertyCount" : 0,
+    "individualCount" : 0
+  },
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "44",
+    "type" : "owl:Class"
+  }, {
+    "id" : "46",
+    "type" : "owl:Class"
+  }, {
+    "id" : "48",
+    "type" : "owl:Class"
+  }, {
+    "id" : "50",
+    "type" : "owl:Class"
+  }, {
+    "id" : "52",
+    "type" : "owl:Class"
+  }, {
+    "id" : "54",
+    "type" : "owl:Class"
+  }, {
+    "id" : "55",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "60",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "70",
+    "type" : "owl:Class"
+  }, {
+    "id" : "100",
+    "type" : "owl:Class"
+  }, {
+    "id" : "110",
+    "type" : "owl:Class"
+  }, {
+    "id" : "114",
+    "type" : "owl:Class"
+  }, {
+    "id" : "115",
+    "type" : "owl:Class"
+  }, {
+    "id" : "45",
+    "type" : "owl:Class"
+  }, {
+    "id" : "117",
+    "type" : "owl:Class"
+  }, {
+    "id" : "107",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "147",
+    "type" : "owl:Class"
+  }, {
+    "id" : "152",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "165",
+    "type" : "owl:Class"
+  }, {
+    "id" : "166",
+    "type" : "owl:Class"
+  }, {
+    "id" : "171",
+    "type" : "owl:Class"
+  }, {
+    "id" : "49",
+    "type" : "owl:Class"
+  }, {
+    "id" : "177",
+    "type" : "owl:Class"
+  }, {
+    "id" : "180",
+    "type" : "owl:Class"
+  }, {
+    "id" : "159",
+    "type" : "owl:Class"
+  }, {
+    "id" : "205",
+    "type" : "owl:Class"
+  }, {
+    "id" : "206",
+    "type" : "owl:Class"
+  }, {
+    "id" : "197",
+    "type" : "owl:Class"
+  }, {
+    "id" : "81",
+    "type" : "owl:Class"
+  }, {
+    "id" : "210",
+    "type" : "owl:Class"
+  }, {
+    "id" : "217",
+    "type" : "owl:Class"
+  }, {
+    "id" : "204",
+    "type" : "owl:Class"
+  }, {
+    "id" : "218",
+    "type" : "owl:Class"
+  }, {
+    "id" : "219",
+    "type" : "owl:Class"
+  }, {
+    "id" : "220",
+    "type" : "owl:Class"
+  }, {
+    "id" : "53",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "154",
+    "type" : "owl:Class"
+  }, {
+    "id" : "255",
+    "type" : "owl:Class"
+  }, {
+    "id" : "256",
+    "type" : "owl:Class"
+  }, {
+    "id" : "160",
+    "type" : "owl:Class"
+  }, {
+    "id" : "257",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "126",
+    "type" : "owl:Class"
+  }, {
+    "id" : "258",
+    "type" : "owl:Class"
+  }, {
+    "id" : "264",
+    "type" : "owl:Class"
+  }, {
+    "id" : "271",
+    "type" : "owl:Class"
+  }, {
+    "id" : "252",
+    "type" : "owl:Class"
+  }, {
+    "id" : "111",
+    "type" : "owl:Class"
+  }, {
+    "id" : "283",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "284",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "184",
+    "type" : "owl:Class"
+  }, {
+    "id" : "311",
+    "type" : "owl:Class"
+  }, {
+    "id" : "318",
+    "type" : "owl:Class"
+  }, {
+    "id" : "212",
+    "type" : "owl:Class"
+  }, {
+    "id" : "233",
+    "type" : "owl:Class"
+  }, {
+    "id" : "341",
+    "type" : "owl:Class"
+  }, {
+    "id" : "342",
+    "type" : "owl:Class"
+  }, {
+    "id" : "343",
+    "type" : "owl:Class"
+  }, {
+    "id" : "101",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "103",
+    "type" : "owl:Class"
+  }, {
+    "id" : "346",
+    "type" : "owl:Class"
+  }, {
+    "id" : "113",
+    "type" : "owl:Class"
+  }, {
+    "id" : "68",
+    "type" : "owl:Class"
+  }, {
+    "id" : "139",
+    "type" : "owl:Class"
+  }, {
+    "id" : "57",
+    "type" : "owl:Class"
+  }, {
+    "id" : "371",
+    "type" : "owl:Class"
+  }, {
+    "id" : "268",
+    "type" : "owl:Class"
+  }, {
+    "id" : "375",
+    "type" : "owl:Class"
+  }, {
+    "id" : "291",
+    "type" : "owl:Class"
+  }, {
+    "id" : "99",
+    "type" : "owl:Class"
+  }, {
+    "id" : "282",
+    "type" : "owl:Class"
+  }, {
+    "id" : "191",
+    "type" : "owl:Class"
+  }, {
+    "id" : "71",
+    "type" : "owl:Class"
+  }, {
+    "id" : "293",
+    "type" : "owl:Class"
+  }, {
+    "id" : "299",
+    "type" : "owl:Class"
+  }, {
+    "id" : "392",
+    "type" : "owl:Class"
+  }, {
+    "id" : "393",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "396",
+    "type" : "owl:Class"
+  }, {
+    "id" : "397",
+    "type" : "owl:Class"
+  }, {
+    "id" : "401",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "402",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "369",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "405",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "123",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "406",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "64",
+    "type" : "owl:Class"
+  }, {
+    "id" : "281",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "178",
+    "type" : "owl:Class"
+  }, {
+    "id" : "109",
+    "type" : "owl:Class"
+  }, {
+    "id" : "289",
+    "type" : "owl:Class"
+  }, {
+    "id" : "156",
+    "type" : "owl:Class"
+  }, {
+    "id" : "416",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "142",
+    "type" : "owl:Class"
+  }, {
+    "id" : "175",
+    "type" : "owl:Class"
+  }, {
+    "id" : "323",
+    "type" : "owl:Class"
+  }, {
+    "id" : "263",
+    "type" : "owl:Class"
+  }, {
+    "id" : "75",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "440",
+    "type" : "owl:Class"
+  }, {
+    "id" : "441",
+    "type" : "owl:Class"
+  }, {
+    "id" : "185",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "399",
+    "type" : "owl:Class"
+  }, {
+    "id" : "230",
+    "type" : "owl:Class"
+  }, {
+    "id" : "445",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "447",
+    "type" : "owl:Class"
+  }, {
+    "id" : "278",
+    "type" : "owl:Class"
+  }, {
+    "id" : "169",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "386",
+    "type" : "owl:Class"
+  }, {
+    "id" : "294",
+    "type" : "owl:Class"
+  }, {
+    "id" : "151",
+    "type" : "owl:Class"
+  }, {
+    "id" : "297",
+    "type" : "owl:Class"
+  }, {
+    "id" : "303",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "89",
+    "type" : "owl:Class"
+  }, {
+    "id" : "182",
+    "type" : "owl:Class"
+  }, {
+    "id" : "308",
+    "type" : "owl:Class"
+  }, {
+    "id" : "144",
+    "type" : "owl:Class"
+  }, {
+    "id" : "235",
+    "type" : "owl:Class"
+  }, {
+    "id" : "237",
+    "type" : "owl:Class"
+  }, {
+    "id" : "351",
+    "type" : "owl:Class"
+  }, {
+    "id" : "238",
+    "type" : "owl:Class"
+  }, {
+    "id" : "226",
+    "type" : "owl:Class"
+  }, {
+    "id" : "91",
+    "type" : "owl:Class"
+  }, {
+    "id" : "162",
+    "type" : "owl:Class"
+  }, {
+    "id" : "479",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "39",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "214",
+    "type" : "owl:Class"
+  }, {
+    "id" : "259",
+    "type" : "owl:Class"
+  }, {
+    "id" : "247",
+    "type" : "owl:Class"
+  }, {
+    "id" : "486",
+    "type" : "owl:Class"
+  }, {
+    "id" : "207",
+    "type" : "owl:Class"
+  }, {
+    "id" : "488",
+    "type" : "owl:Class"
+  }, {
+    "id" : "93",
+    "type" : "owl:Class"
+  }, {
+    "id" : "225",
+    "type" : "owl:Class"
+  }, {
+    "id" : "286",
+    "type" : "owl:Class"
+  }, {
+    "id" : "444",
+    "type" : "owl:Class"
+  }, {
+    "id" : "288",
+    "type" : "owl:Class"
+  }, {
+    "id" : "495",
+    "type" : "owl:Class"
+  }, {
+    "id" : "496",
+    "type" : "owl:Class"
+  }, {
+    "id" : "497",
+    "type" : "owl:Class"
+  }, {
+    "id" : "498",
+    "type" : "owl:Class"
+  }, {
+    "id" : "499",
+    "type" : "owl:Class"
+  }, {
+    "id" : "388",
+    "type" : "owl:Class"
+  }, {
+    "id" : "400",
+    "type" : "owl:Class"
+  }, {
+    "id" : "384",
+    "type" : "owl:Class"
+  }, {
+    "id" : "272",
+    "type" : "owl:Class"
+  }, {
+    "id" : "442",
+    "type" : "owl:Class"
+  }, {
+    "id" : "121",
+    "type" : "owl:Class"
+  }, {
+    "id" : "502",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "503",
+    "type" : "owl:Class"
+  }, {
+    "id" : "73",
+    "type" : "owl:Class"
+  }, {
+    "id" : "83",
+    "type" : "owl:Class"
+  }, {
+    "id" : "504",
+    "type" : "owl:Class"
+  }, {
+    "id" : "116",
+    "type" : "owl:Class"
+  }, {
+    "id" : "383",
+    "type" : "owl:Class"
+  }, {
+    "id" : "505",
+    "type" : "owl:Class"
+  }, {
+    "id" : "306",
+    "type" : "owl:Class"
+  }, {
+    "id" : "329",
+    "type" : "owl:Class"
+  }, {
+    "id" : "280",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "509",
+    "type" : "owl:Class"
+  }, {
+    "id" : "118",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "325",
+    "type" : "owl:Class"
+  }, {
+    "id" : "337",
+    "type" : "owl:Class"
+  }, {
+    "id" : "189",
+    "type" : "owl:Class"
+  }, {
+    "id" : "137",
+    "type" : "owl:Class"
+  }, {
+    "id" : "155",
+    "type" : "owl:Class"
+  }, {
+    "id" : "510",
+    "type" : "owl:Class"
+  }, {
+    "id" : "193",
+    "type" : "owl:Class"
+  }, {
+    "id" : "229",
+    "type" : "owl:Class"
+  }, {
+    "id" : "223",
+    "type" : "owl:Class"
+  }, {
+    "id" : "240",
+    "type" : "owl:Class"
+  }, {
+    "id" : "353",
+    "type" : "owl:Class"
+  }, {
+    "id" : "132",
+    "type" : "owl:Class"
+  }, {
+    "id" : "153",
+    "type" : "owl:Class"
+  }, {
+    "id" : "404",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "200",
+    "type" : "owl:Class"
+  }, {
+    "id" : "300",
+    "type" : "owl:Class"
+  }, {
+    "id" : "161",
+    "type" : "owl:Class"
+  }, {
+    "id" : "437",
+    "type" : "owl:Class"
+  }, {
+    "id" : "275",
+    "type" : "owl:Class"
+  }, {
+    "id" : "135",
+    "type" : "owl:Class"
+  }, {
+    "id" : "187",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  }, {
+    "id" : "158",
+    "type" : "owl:Class"
+  }, {
+    "id" : "513",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "310",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "296",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "163",
+    "type" : "owl:Class"
+  }, {
+    "id" : "77",
+    "type" : "owl:Class"
+  }, {
+    "id" : "176",
+    "type" : "owl:Class"
+  }, {
+    "id" : "327",
+    "type" : "owl:Class"
+  }, {
+    "id" : "97",
+    "type" : "owl:Class"
+  }, {
+    "id" : "228",
+    "type" : "owl:Class"
+  }, {
+    "id" : "446",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "157",
+    "type" : "owl:Class"
+  }, {
+    "id" : "59",
+    "type" : "owl:Class"
+  }, {
+    "id" : "317",
+    "type" : "owl:Class"
+  }, {
+    "id" : "195",
+    "type" : "owl:Class"
+  }, {
+    "id" : "290",
+    "type" : "owl:Class"
+  }, {
+    "id" : "95",
+    "type" : "owl:Class"
+  }, {
+    "id" : "249",
+    "type" : "owl:Class"
+  }, {
+    "id" : "527",
+    "type" : "owl:Class"
+  }, {
+    "id" : "295",
+    "type" : "owl:Class"
+  }, {
+    "id" : "266",
+    "type" : "owl:Class"
+  }, {
+    "id" : "149",
+    "type" : "owl:Class"
+  }, {
+    "id" : "531",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "242",
+    "type" : "owl:Class"
+  }, {
+    "id" : "56",
+    "type" : "owl:Class"
+  }, {
+    "id" : "301",
+    "type" : "owl:Class"
+  }, {
+    "id" : "236",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "209",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "345",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "285",
+    "type" : "owl:Class"
+  }, {
+    "id" : "216",
+    "type" : "owl:Class"
+  }, {
+    "id" : "544",
+    "type" : "owl:Class"
+  }, {
+    "id" : "545",
+    "type" : "owl:Class"
+  }, {
+    "id" : "179",
+    "type" : "owl:Class"
+  }, {
+    "id" : "130",
+    "type" : "owl:Class"
+  }, {
+    "id" : "61",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "254",
+    "type" : "owl:Class"
+  }, {
+    "id" : "105",
+    "type" : "owl:Class"
+  }, {
+    "id" : "58",
+    "type" : "owl:Class"
+  }, {
+    "id" : "79",
+    "type" : "owl:Class"
+  }, {
+    "id" : "133",
+    "type" : "owl:Class"
+  }, {
+    "id" : "47",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "224",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "134",
+    "type" : "owl:Class"
+  }, {
+    "id" : "490",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "140",
+    "type" : "owl:Class"
+  }, {
+    "id" : "231",
+    "type" : "owl:Class"
+  }, {
+    "id" : "128",
+    "type" : "owl:Class"
+  }, {
+    "id" : "227",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "222",
+    "type" : "owl:Class"
+  }, {
+    "id" : "292",
+    "type" : "owl:Class"
+  }, {
+    "id" : "51",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "66",
+    "type" : "owl:Class"
+  }, {
+    "id" : "320",
+    "type" : "owl:Class"
+  }, {
+    "id" : "119",
+    "type" : "owl:Class"
+  }, {
+    "id" : "459",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "232",
+    "type" : "owl:Class"
+  }, {
+    "id" : "348",
+    "type" : "owl:Class"
+  }, {
+    "id" : "146",
+    "type" : "owl:Class"
+  }, {
+    "id" : "287",
+    "type" : "owl:Class"
+  }, {
+    "id" : "85",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "411",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "529",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "370",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "372",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "390",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "339",
+    "type" : "owl:Class"
+  }, {
+    "id" : "460",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "168",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "435",
+    "type" : "owl:Class"
+  }, {
+    "id" : "298",
+    "type" : "owl:Class"
+  }, {
+    "id" : "244",
+    "type" : "owl:Class"
+  }, {
+    "id" : "537",
+    "type" : "owl:Class"
+  }, {
+    "id" : "526",
+    "type" : "owl:Class"
+  }, {
+    "id" : "164",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#tuberculosis",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "tuberculosis"
+    },
+    "id" : "0",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Unhealthy",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Unhealthy"
+    },
+    "comment" : {
+      "undefined" : "Une entité est considéré comme \"Unhealthy\" si elle possède des maladies ou au moins une maladie."
+    },
+    "id" : "12"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#calcium_metabolism",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "calcium_metabolism"
+    },
+    "id" : "27",
+    "superClasses" : [ "28" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#erysipeloid",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "erysipeloid"
+    },
+    "id" : "29",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Nutrition",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Nutrition"
+    },
+    "id" : "40",
+    "superClasses" : [ "41" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#bacterial_infectious_disease",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "bacterial_infectious_disease"
+    },
+    "id" : "44",
+    "superClasses" : [ "45" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#herpangina",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "herpangina"
+    },
+    "id" : "46",
+    "superClasses" : [ "47" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#type_2_diabetes",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "type_2_diabetes"
+    },
+    "id" : "48",
+    "superClasses" : [ "49" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#morbid_obesity",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "morbid_obesity"
+    },
+    "id" : "50",
+    "superClasses" : [ "51" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Oreillons",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Oreillons"
+    },
+    "id" : "52",
+    "superClasses" : [ "53" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#neonatal_diabetes",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "neonatal_diabetes"
+    },
+    "id" : "54",
+    "superClasses" : [ "49" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#mitochondrial_metabolism",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "mitochondrial_metabolism"
+    },
+    "subClasses" : [ "57", "58", "59" ],
+    "id" : "55",
+    "superClasses" : [ "56" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Dissociative_disorder",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Dissociative_disorder"
+    },
+    "id" : "36",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Ajustment_disorder",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Ajustment_disorder"
+    },
+    "id" : "31",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Cancer_treatment",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Cancer_treatment"
+    },
+    "intersection" : [ "61" ],
+    "comment" : {
+      "undefined" : "Cancer_tratment traite le Cancer"
+    },
+    "attributes" : [ "intersection" ],
+    "id" : "60"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#lymphogranuloma_venereum",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "lymphogranuloma_venereum"
+    },
+    "id" : "70",
+    "superClasses" : [ "71" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#amyloidosis",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "amyloidosis"
+    },
+    "id" : "100",
+    "superClasses" : [ "101" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Gallbladder_cancer",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Gallbladder_cancer"
+    },
+    "id" : "110",
+    "superClasses" : [ "111" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#lyme",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "lyme"
+    },
+    "id" : "114",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#actinobacillosis",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "actinobacillosis"
+    },
+    "id" : "115",
+    "superClasses" : [ "71" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Infection",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Infection"
+    },
+    "subClasses" : [ "116", "44" ],
+    "id" : "45",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Female_reproductive_organ_cancer",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Female_reproductive_organ_cancer"
+    },
+    "subClasses" : [ "119" ],
+    "id" : "117",
+    "superClasses" : [ "118" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#anthrax",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "anthrax"
+    },
+    "id" : "107",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#mineral_metabolism_disease",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "mineral_metabolism_disease"
+    },
+    "subClasses" : [ "27", "133", "134", "135" ],
+    "id" : "28",
+    "superClasses" : [ "101" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#leprosy",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "leprosy"
+    },
+    "id" : "147",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Physical",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Physical"
+    },
+    "subClasses" : [ "153", "154", "155", "156", "157", "158", "159", "160", "161", "162", "163", "164" ],
+    "intersection" : [ "7" ],
+    "attributes" : [ "intersection" ],
+    "id" : "152"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#rubella",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "rubella"
+    },
+    "id" : "165",
+    "superClasses" : [ "47" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#yaws",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "yaws"
+    },
+    "id" : "166",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#chlamydia",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "chlamydia"
+    },
+    "id" : "171",
+    "superClasses" : [ "71" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#diabetes_mellitus",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "diabetes_mellitus"
+    },
+    "subClasses" : [ "175", "54", "176", "48" ],
+    "id" : "49",
+    "superClasses" : [ "39" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#smallpox",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "smallpox"
+    },
+    "subClasses" : [ "178", "179" ],
+    "id" : "177",
+    "superClasses" : [ "47" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#pertussis",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "pertussis"
+    },
+    "id" : "180",
+    "superClasses" : [ "71" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#bladder_exstrophy-epispadias-cloacal_exstrophy_complex",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "bladder_exstrophy-epispadias-cloacal_exstrophy_complex"
+    },
+    "id" : "159",
+    "superClasses" : [ "152" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#cholera",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "cholera"
+    },
+    "id" : "205",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#endocrine_gland_cancer",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "endocrine_gland_cancer"
+    },
+    "subClasses" : [ "207" ],
+    "id" : "206",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Respiratory_System",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Respiratory_System"
+    },
+    "id" : "197",
+    "superClasses" : [ "41" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#legionellosis",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "legionellosis"
+    },
+    "id" : "81",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#yellow_fever",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "yellow_fever"
+    },
+    "id" : "210",
+    "superClasses" : [ "47" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#chancroid",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "chancroid"
+    },
+    "id" : "217",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Head_and_Neck",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Head_and_Neck"
+    },
+    "id" : "204",
+    "superClasses" : [ "41" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#actinomycosis",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "actinomycosis"
+    },
+    "id" : "218",
+    "superClasses" : [ "71" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#listeriosis",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "listeriosis"
+    },
+    "id" : "219",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#erythema",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "erythema"
+    },
+    "id" : "220",
+    "superClasses" : [ "47" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Vaccination",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Vaccination"
+    },
+    "subClasses" : [ "224", "225", "226", "227", "228", "229", "230", "52", "231", "232", "233" ],
+    "comment" : {
+      "undefined" : "Les 11 vaccins obligatoires à réaliser pour être suffisemment protégé et non intégralement."
+    },
+    "id" : "53",
+    "superClasses" : [ "223" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#overnutrition",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "overnutrition"
+    },
+    "subClasses" : [ "51", "237", "238" ],
+    "id" : "16",
+    "superClasses" : [ "17" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#cryptorchidism",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "cryptorchidism"
+    },
+    "id" : "154",
+    "superClasses" : [ "152" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#trachoma",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "trachoma"
+    },
+    "id" : "255",
+    "superClasses" : [ "71" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#influenza",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "influenza"
+    },
+    "id" : "256",
+    "superClasses" : [ "47" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#gastroschisis",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "gastroschisis"
+    },
+    "id" : "160",
+    "superClasses" : [ "152" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#urinary_system_cancer",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "urinary_system_cancer"
+    },
+    "subClasses" : [ "140" ],
+    "intersection" : [ "6" ],
+    "attributes" : [ "intersection" ],
+    "id" : "257"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#buruli_ulcer",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "buruli_ulcer"
+    },
+    "id" : "126",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Good_Bacteria",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Good_Bacteria"
+    },
+    "comment" : {
+      "undefined" : "Good_Bacteria sont des cures"
+    },
+    "id" : "258",
+    "superClasses" : [ "259" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#hyperinsulinism",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "hyperinsulinism"
+    },
+    "id" : "264",
+    "superClasses" : [ "39" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Sports",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Sports"
+    },
+    "id" : "271",
+    "superClasses" : [ "272" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#glycerol_kinase_deficiency",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "glycerol_kinase_deficiency"
+    },
+    "id" : "252",
+    "superClasses" : [ "56" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Biliary_tract_cancer",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Biliary_tract_cancer"
+    },
+    "subClasses" : [ "110" ],
+    "id" : "111",
+    "superClasses" : [ "282" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Infection_treatment",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Infection_treatment"
+    },
+    "intersection" : [ "61" ],
+    "comment" : {
+      "undefined" : "Infection_treatment traite les infections"
+    },
+    "attributes" : [ "intersection" ],
+    "id" : "283"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#tularemia",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "tularemia"
+    },
+    "id" : "284",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#primary_bacteria",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "primary_bacteria"
+    },
+    "subClasses" : [ "285", "0", "286", "287", "288", "29", "217", "147", "166", "289", "219", "284", "290", "291", "292", "293", "294", "295", "296", "297", "298", "205", "114", "299", "300", "301", "126", "73", "77", "81", "89", "93", "97", "103", "107", "113", "64" ],
+    "id" : "1",
+    "superClasses" : [ "185" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#rheumatic_fever",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "rheumatic_fever"
+    },
+    "id" : "184",
+    "superClasses" : [ "185" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Somatoform_disorder",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Somatoform_disorder"
+    },
+    "id" : "311",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#immunodeficiency_virus",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "immunodeficiency_virus"
+    },
+    "subClasses" : [ "317" ],
+    "id" : "318",
+    "superClasses" : [ "47" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#monogenic_disease",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "monogenic_disease"
+    },
+    "id" : "212",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Rubeole",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Rubeole"
+    },
+    "id" : "233",
+    "superClasses" : [ "53" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#vaccinia",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "vaccinia"
+    },
+    "id" : "341",
+    "superClasses" : [ "47" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#chickenpox",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "chickenpox"
+    },
+    "id" : "342",
+    "superClasses" : [ "47" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#lymphocytic_choriomeningitis",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "lymphocytic_choriomeningitis"
+    },
+    "id" : "343",
+    "superClasses" : [ "47" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#acquired_metabolic_disease",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "acquired_metabolic_disease"
+    },
+    "subClasses" : [ "28", "325", "329", "100", "337", "17", "39", "308" ],
+    "id" : "101",
+    "superClasses" : [ "209" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Colorectal_cancer",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Colorectal_cancer"
+    },
+    "id" : "33",
+    "superClasses" : [ "34" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#tetanus",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "tetanus"
+    },
+    "id" : "103",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#chikungunya",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "chikungunya"
+    },
+    "id" : "346",
+    "superClasses" : [ "47" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#melioidosis",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "melioidosis"
+    },
+    "id" : "113",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Personality_disorder",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Personality_disorder"
+    },
+    "id" : "68",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Renal_carcinoma",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Renal_carcinoma"
+    },
+    "id" : "139",
+    "superClasses" : [ "140" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#mitochondrial_complex_III_deficiency",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "mitochondrial_complex_III_deficiency"
+    },
+    "id" : "57",
+    "superClasses" : [ "55" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#viral_encephalitis",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "viral_encephalitis"
+    },
+    "id" : "371",
+    "superClasses" : [ "47" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#dihydropyrimidine_dehydrogenase_deficiency",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "dihydropyrimidine_dehydrogenase_deficiency"
+    },
+    "id" : "268",
+    "superClasses" : [ "56" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#lactic_acidosis",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "lactic_acidosis"
+    },
+    "id" : "375",
+    "superClasses" : [ "329" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#glanders",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "glanders"
+    },
+    "id" : "291",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#swayback",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "swayback"
+    },
+    "id" : "99",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#gastrointestinal_system_cancer",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "gastrointestinal_system_cancer"
+    },
+    "subClasses" : [ "34", "111" ],
+    "id" : "282",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Reproductive_System",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Reproductive_System"
+    },
+    "id" : "191",
+    "superClasses" : [ "41" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#commensal_bacteria",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "commensal_bacteria"
+    },
+    "subClasses" : [ "70", "115", "255", "275", "171", "278", "218", "180" ],
+    "id" : "71",
+    "superClasses" : [ "185" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#gonorrhea",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "gonorrhea"
+    },
+    "id" : "293",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#sodoku",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "sodoku"
+    },
+    "id" : "299",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#tick-borne_encephalitis",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "tick-borne_encephalitis"
+    },
+    "id" : "392",
+    "superClasses" : [ "47" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#cardiovascular_cancer",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "cardiovascular_cancer"
+    },
+    "intersection" : [ "6" ],
+    "comment" : {
+      "undefined" : "cardiovascular cancer affecte Cardiovascular"
+    },
+    "attributes" : [ "intersection" ],
+    "id" : "393"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#subacute_sclerosing_panencephalitis",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "subacute_sclerosing_panencephalitis"
+    },
+    "id" : "396",
+    "superClasses" : [ "47" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#ebola",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ebola"
+    },
+    "id" : "397",
+    "superClasses" : [ "47" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "401",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "402",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Sexual_Disorder_treatment",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Sexual_Disorder_treatment"
+    },
+    "intersection" : [ "404" ],
+    "comment" : {
+      "undefined" : "Sexual_disorder_treatment traite le Sexual_disorder"
+    },
+    "attributes" : [ "intersection" ],
+    "id" : "369"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "405",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "123",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "406",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#pasteurellosis",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "pasteurellosis"
+    },
+    "id" : "64",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "281",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#variola_major",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "variola_major"
+    },
+    "id" : "178",
+    "superClasses" : [ "177" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#moderate_obesity",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "moderate_obesity"
+    },
+    "id" : "109",
+    "superClasses" : [ "51" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#botulism",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "botulism"
+    },
+    "id" : "289",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#agnathia-otocephaly_complex",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "agnathia-otocephaly_complex"
+    },
+    "id" : "156",
+    "superClasses" : [ "152" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Metabolism_treatment",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Metabolism_treatment"
+    },
+    "intersection" : [ "61" ],
+    "comment" : {
+      "undefined" : "Metabolism_tratment traite le Metabolism"
+    },
+    "attributes" : [ "intersection" ],
+    "id" : "416"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#anorexia",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "anorexia"
+    },
+    "id" : "142",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#type_1_diabetes",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "type_1_diabetes"
+    },
+    "id" : "175",
+    "superClasses" : [ "49" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#retroperitoneal_cancer",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "retroperitoneal_cancer"
+    },
+    "id" : "323",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#amino_acid_deficiency",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "amino_acid_deficiency"
+    },
+    "id" : "263",
+    "superClasses" : [ "56" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#beriberi",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "beriberi"
+    },
+    "id" : "75",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#hyperglycemia",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "hyperglycemia"
+    },
+    "id" : "38",
+    "superClasses" : [ "39" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#rheumatic_myocarditis",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "rheumatic_myocarditis"
+    },
+    "id" : "440",
+    "superClasses" : [ "185" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#viral_pneumonia",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "viral_pneumonia"
+    },
+    "subClasses" : [ "442" ],
+    "id" : "441",
+    "superClasses" : [ "47" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Bad_Bacteria",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Bad_Bacteria"
+    },
+    "subClasses" : [ "71", "444", "440", "1", "184", "187" ],
+    "intersection" : [ "259" ],
+    "comment" : {
+      "undefined" : "Bad_Bacteria font des infections bacteriales"
+    },
+    "attributes" : [ "intersection" ],
+    "id" : "185"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Symptoms",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Symptoms"
+    },
+    "subClasses" : [ "189", "191", "193", "195", "197", "40", "200", "204", "182", "130", "132", "137" ],
+    "id" : "41"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Good_Virus",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Good_Virus"
+    },
+    "comment" : {
+      "undefined" : "Good_Virus sont des cures"
+    },
+    "id" : "399",
+    "superClasses" : [ "400" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#HepatiteB",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HepatiteB"
+    },
+    "id" : "230",
+    "superClasses" : [ "53" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Protected",
+    "equivalent" : [ "446" ],
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Protected"
+    },
+    "attributes" : [ "equivalent" ],
+    "id" : "445"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#molluscum_contagiosum",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "molluscum_contagiosum"
+    },
+    "id" : "447",
+    "superClasses" : [ "47" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#gas_gangrene",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "gas_gangrene"
+    },
+    "id" : "278",
+    "superClasses" : [ "71" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Genetic_treatment",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Genetic_treatment"
+    },
+    "intersection" : [ "61" ],
+    "comment" : {
+      "undefined" : "Genetic_treatment traite les maladies génitales"
+    },
+    "attributes" : [ "intersection" ],
+    "id" : "169"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Clean",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Clean"
+    },
+    "id" : "386",
+    "superClasses" : [ "272" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#ornithosis",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ornithosis"
+    },
+    "id" : "294",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#ariboflavinosis",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ariboflavinosis"
+    },
+    "id" : "151",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#typhoid",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "typhoid"
+    },
+    "id" : "297",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#hematologic_cancer",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "hematologic_cancer"
+    },
+    "id" : "303",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Cognitive_disorder",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Cognitive_disorder"
+    },
+    "id" : "14",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#salmonellosis",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "salmonellosis"
+    },
+    "id" : "89",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Musculoskeletal_System",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Musculoskeletal_System"
+    },
+    "id" : "182",
+    "superClasses" : [ "41" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#carotenemia",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "carotenemia"
+    },
+    "id" : "308",
+    "superClasses" : [ "101" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#folic_acid_deficiency",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "folic_acid_deficiency"
+    },
+    "id" : "144",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#herpetic_whitlow",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "herpetic_whitlow"
+    },
+    "id" : "235",
+    "superClasses" : [ "236" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#hypervitaminosis_D",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "hypervitaminosis_D"
+    },
+    "id" : "237",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Impulse_control_disorder",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Impulse_control_disorder"
+    },
+    "id" : "351",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#hypervitaminosis_A",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "hypervitaminosis_A"
+    },
+    "id" : "238",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Influenza",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Influenza"
+    },
+    "id" : "226",
+    "superClasses" : [ "53" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#scurvy",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "scurvy"
+    },
+    "id" : "91",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#hypospadias",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "hypospadias"
+    },
+    "id" : "162",
+    "superClasses" : [ "152" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#tropical_spastic_paraparesis",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "tropical_spastic_paraparesis"
+    },
+    "id" : "479",
+    "superClasses" : [ "47" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Intestinal_cancer",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Intestinal_cancer"
+    },
+    "subClasses" : [ "33" ],
+    "id" : "34",
+    "superClasses" : [ "282" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#glucose_metabolism_disease",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "glucose_metabolism_disease"
+    },
+    "subClasses" : [ "38", "345", "49", "353", "264" ],
+    "id" : "39",
+    "superClasses" : [ "101" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Cancer",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Cancer"
+    },
+    "subClasses" : [ "320", "323", "327", "206", "282", "339", "303", "306", "310", "26" ],
+    "id" : "6",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#chromosomal_disease",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "chromosomal_disease"
+    },
+    "id" : "214",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Bacteria",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Bacteria"
+    },
+    "subClasses" : [ "258" ],
+    "id" : "259",
+    "superClasses" : [ "437" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#peroxisomal_deficiency",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "peroxisomal_deficiency"
+    },
+    "id" : "247",
+    "superClasses" : [ "56" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Cure",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Cure"
+    },
+    "comment" : {
+      "undefined" : "Cure peut etre une sorte de traitement pour des maladies"
+    },
+    "id" : "486"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Pancreatic_cancer",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Pancreatic_cancer"
+    },
+    "id" : "207",
+    "superClasses" : [ "206" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#dengue",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "dengue"
+    },
+    "id" : "488",
+    "superClasses" : [ "47" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#plague",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "plague"
+    },
+    "id" : "93",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Coqueluche",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Coqueluche"
+    },
+    "id" : "225",
+    "superClasses" : [ "53" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#ehrlichiosis",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ehrlichiosis"
+    },
+    "id" : "286",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#bacterial_sepsis",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "bacterial_sepsis"
+    },
+    "id" : "444",
+    "superClasses" : [ "185" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#bejel",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "bejel"
+    },
+    "id" : "288",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#hepatitis_A",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "hepatitis_A"
+    },
+    "id" : "495",
+    "superClasses" : [ "47" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#hepatitis_B",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "hepatitis_B"
+    },
+    "id" : "496",
+    "superClasses" : [ "47" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#hepatitis_C",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "hepatitis_C"
+    },
+    "id" : "497",
+    "superClasses" : [ "47" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#hepatitis_D",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "hepatitis_D"
+    },
+    "id" : "498",
+    "superClasses" : [ "47" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#hepatitis_E",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "hepatitis_E"
+    },
+    "id" : "499",
+    "superClasses" : [ "47" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#WashHands",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "WashHands"
+    },
+    "id" : "388",
+    "superClasses" : [ "272" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Virus",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Virus"
+    },
+    "subClasses" : [ "399" ],
+    "id" : "400",
+    "superClasses" : [ "437" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Male_reproductive_organ_cancer",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Male_reproductive_organ_cancer"
+    },
+    "subClasses" : [ "383" ],
+    "id" : "384",
+    "superClasses" : [ "118" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#GoodHabits",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GoodHabits"
+    },
+    "subClasses" : [ "271", "388", "386" ],
+    "comment" : {
+      "undefined" : "Bonne habitude à prendre pour prevenir contre toute eventuelle maladie."
+    },
+    "id" : "272",
+    "superClasses" : [ "223" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Influenzae_A_virus",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Influenzae_A_virus"
+    },
+    "id" : "442",
+    "superClasses" : [ "441" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#steatitis",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "steatitis"
+    },
+    "id" : "121",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#respiratory_system_cancer",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "respiratory_system_cancer"
+    },
+    "intersection" : [ "6" ],
+    "attributes" : [ "intersection" ],
+    "id" : "502"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#viral_hepatitis",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "viral_hepatitis"
+    },
+    "id" : "503",
+    "superClasses" : [ "47" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#diphtheria",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "diphtheria"
+    },
+    "id" : "73",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#pyridoxine_deficiency",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "pyridoxine_deficiency"
+    },
+    "id" : "83",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#cowpox",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "cowpox"
+    },
+    "id" : "504",
+    "superClasses" : [ "47" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#viral_infectious_disease",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "viral_infectious_disease"
+    },
+    "id" : "116",
+    "superClasses" : [ "45" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Prostate_cancer",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Prostate_cancer"
+    },
+    "id" : "383",
+    "superClasses" : [ "384" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#exanthema_subitum",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "exanthema_subitum"
+    },
+    "id" : "505",
+    "superClasses" : [ "47" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#immune_system_cancer",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "immune_system_cancer"
+    },
+    "id" : "306",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#metabolic_acidosis",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "metabolic_acidosis"
+    },
+    "subClasses" : [ "375" ],
+    "id" : "329",
+    "superClasses" : [ "101" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Sleep_Disorder_treatment",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Sleep_Disorder_treatment"
+    },
+    "intersection" : [ "404" ],
+    "comment" : {
+      "undefined" : "Sleep_disorder_treatment traite le sleep_disorder"
+    },
+    "attributes" : [ "intersection" ],
+    "id" : "280"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#measles",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "measles"
+    },
+    "id" : "509",
+    "superClasses" : [ "47" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#reproductive_organ_cancer",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "reproductive_organ_cancer"
+    },
+    "subClasses" : [ "117", "384" ],
+    "intersection" : [ "6" ],
+    "attributes" : [ "intersection" ],
+    "id" : "118"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#hyperuricemia",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "hyperuricemia"
+    },
+    "id" : "325",
+    "superClasses" : [ "101" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#hyperprolactinemia",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "hyperprolactinemia"
+    },
+    "id" : "337",
+    "superClasses" : [ "101" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Cardiovascular",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Cardiovascular"
+    },
+    "id" : "189",
+    "superClasses" : [ "41" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Neurological",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Neurological"
+    },
+    "id" : "137",
+    "superClasses" : [ "41" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#renal-hepatic-pancreatic_dysplasia",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "renal-hepatic-pancreatic_dysplasia"
+    },
+    "id" : "155",
+    "superClasses" : [ "152" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#rabies",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "rabies"
+    },
+    "id" : "510",
+    "superClasses" : [ "47" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Urinary_System",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Urinary_System"
+    },
+    "id" : "193",
+    "superClasses" : [ "41" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Rougeole",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Rougeole"
+    },
+    "id" : "229",
+    "superClasses" : [ "53" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Prevention",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Prevention"
+    },
+    "subClasses" : [ "272", "53" ],
+    "comment" : {
+      "undefined" : "Prevention de maladies(virus/bactérie) principaux"
+    },
+    "id" : "223"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#genital_herpes",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "genital_herpes"
+    },
+    "id" : "240",
+    "superClasses" : [ "236" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#triosephosphate_isomerase_deficiency",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "triosephosphate_isomerase_deficiency"
+    },
+    "id" : "353",
+    "superClasses" : [ "39" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Immune_System",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Immune_System"
+    },
+    "id" : "132",
+    "superClasses" : [ "41" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#omphalocele",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "omphalocele"
+    },
+    "id" : "153",
+    "superClasses" : [ "152" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Mental_treatment",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Mental_treatment"
+    },
+    "intersection" : [ "61" ],
+    "comment" : {
+      "undefined" : "Mental_traite le mental ( voir aussi sleep and sexual )"
+    },
+    "attributes" : [ "intersection" ],
+    "id" : "404"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Skin",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Skin"
+    },
+    "id" : "200",
+    "superClasses" : [ "41" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#bartonellosis",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "bartonellosis"
+    },
+    "id" : "300",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#radioulnar_synostosis",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "radioulnar_synostosis"
+    },
+    "id" : "161",
+    "superClasses" : [ "152" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Causes",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Causes"
+    },
+    "subClasses" : [ "259", "400" ],
+    "id" : "437"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#inclusion_conjunctivitis",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "inclusion_conjunctivitis"
+    },
+    "id" : "275",
+    "superClasses" : [ "71" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#iron_metabolism",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "iron_metabolism"
+    },
+    "id" : "135",
+    "superClasses" : [ "28" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#opportunistic_bacteria",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "opportunistic_bacteria"
+    },
+    "subClasses" : [ "435" ],
+    "id" : "187",
+    "superClasses" : [ "185" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Substance_related_disorder",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Substance_related_disorder"
+    },
+    "id" : "43",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Meckel's_diverticulum",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Meckel's_diverticulum"
+    },
+    "id" : "158",
+    "superClasses" : [ "152" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Syndrome",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Syndrome"
+    },
+    "intersection" : [ "7" ],
+    "attributes" : [ "intersection" ],
+    "id" : "513"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#integumentary_system_cancer",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "integumentary_system_cancer"
+    },
+    "id" : "310",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Mental",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Mental"
+    },
+    "subClasses" : [ "68", "3", "9", "14", "19", "23", "31", "36", "43", "348", "351", "311" ],
+    "intersection" : [ "7" ],
+    "attributes" : [ "intersection" ],
+    "id" : "4"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#paratyphoid",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "paratyphoid"
+    },
+    "id" : "296",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Gender_identity_disorder",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Gender_identity_disorder"
+    },
+    "id" : "19",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#polydactyly",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "polydactyly"
+    },
+    "id" : "163",
+    "superClasses" : [ "152" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#typhus",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "typhus"
+    },
+    "id" : "77",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#gestational_diabetes",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "gestational_diabetes"
+    },
+    "id" : "176",
+    "superClasses" : [ "49" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#musculoskeletal_system_cancer",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "musculoskeletal_system_cancer"
+    },
+    "id" : "327",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#syphilis",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "syphilis"
+    },
+    "id" : "97",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Tetanos",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Tetanos"
+    },
+    "id" : "228",
+    "superClasses" : [ "53" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Healthy",
+    "equivalent" : [ "445" ],
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Healthy"
+    },
+    "comment" : {
+      "undefined" : "Une entité est considéré comme \"Healthy\" si elle ne possède aucune maladie."
+    },
+    "attributes" : [ "equivalent" ],
+    "id" : "446"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#imperforate_anus",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "imperforate_anus"
+    },
+    "id" : "157",
+    "superClasses" : [ "152" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#mitochondrial_complex_II_deficiency",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "mitochondrial_complex_II_deficiency"
+    },
+    "id" : "59",
+    "superClasses" : [ "55" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#AIDS_acquired_immunodeficiency_syndrome",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AIDS_acquired_immunodeficiency_syndrome"
+    },
+    "id" : "317",
+    "superClasses" : [ "318" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Digestive_System",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Digestive_System"
+    },
+    "id" : "195",
+    "superClasses" : [ "41" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#sennetsu",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "sennetsu"
+    },
+    "id" : "290",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#pellagra",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "pellagra"
+    },
+    "id" : "95",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#dopamine_beta-hydroxylase_deficiency",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "dopamine_beta-hydroxylase_deficiency"
+    },
+    "id" : "249",
+    "superClasses" : [ "56" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Zika",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Zika"
+    },
+    "id" : "527",
+    "superClasses" : [ "47" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#granuloma_inguinale",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "granuloma_inguinale"
+    },
+    "id" : "295",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#plasma_protein_deficiency",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "plasma_protein_deficiency"
+    },
+    "id" : "266",
+    "superClasses" : [ "56" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#vitaminK_deficiency",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "vitaminK_deficiency"
+    },
+    "id" : "149",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#nervous_system_cancer",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "nervous_system_cancer"
+    },
+    "intersection" : [ "6" ],
+    "comment" : {
+      "undefined" : "nervous_system_cancer affecte Nervous_System"
+    },
+    "attributes" : [ "intersection" ],
+    "id" : "531"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#eczema_herpeticum",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "eczema_herpeticum"
+    },
+    "id" : "242",
+    "superClasses" : [ "236" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#inherited_metabolic_disorder",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "inherited_metabolic_disorder"
+    },
+    "subClasses" : [ "263", "266", "268", "247", "249", "55", "252", "254", "222" ],
+    "id" : "56",
+    "superClasses" : [ "209" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#rhinoscleroma",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "rhinoscleroma"
+    },
+    "id" : "301",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#herpes",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "herpes"
+    },
+    "subClasses" : [ "235", "240", "242" ],
+    "id" : "236",
+    "superClasses" : [ "47" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Breast_cancer",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Breast_cancer"
+    },
+    "subClasses" : [ "244" ],
+    "id" : "25",
+    "superClasses" : [ "26" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Metabolism",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Metabolism"
+    },
+    "subClasses" : [ "101", "56" ],
+    "intersection" : [ "7" ],
+    "attributes" : [ "intersection" ],
+    "id" : "209"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#hypoglycemia",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "hypoglycemia"
+    },
+    "id" : "345",
+    "superClasses" : [ "39" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Genetic",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Genetic"
+    },
+    "subClasses" : [ "212", "214" ],
+    "id" : "11",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#shigellosis",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "shigellosis"
+    },
+    "id" : "285",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#pharyngoconjunctival",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "pharyngoconjunctival"
+    },
+    "id" : "216",
+    "superClasses" : [ "47" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#monkeypox",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "monkeypox"
+    },
+    "id" : "544",
+    "superClasses" : [ "47" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Japanese_encephalitis",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Japanese_encephalitis"
+    },
+    "id" : "545",
+    "superClasses" : [ "47" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#variola_minor",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "variola_minor"
+    },
+    "id" : "179",
+    "superClasses" : [ "177" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Nervous_System",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Nervous_System"
+    },
+    "id" : "130",
+    "superClasses" : [ "41" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Treatment",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Treatment"
+    },
+    "id" : "61"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Sexual_disorder",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Sexual_disorder"
+    },
+    "id" : "9",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#thiopurine_S-methyltransferase_deficiency",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "thiopurine_S-methyltransferase_deficiency"
+    },
+    "id" : "254",
+    "superClasses" : [ "56" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#severe_obesity",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "severe_obesity"
+    },
+    "id" : "105",
+    "superClasses" : [ "51" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#mitochondrial_complex_I_deficiency",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "mitochondrial_complex_I_deficiency"
+    },
+    "id" : "58",
+    "superClasses" : [ "55" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#biotin_deficiency",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "biotin_deficiency"
+    },
+    "id" : "79",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#hypokalemia_metabolism",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "hypokalemia_metabolism"
+    },
+    "id" : "133",
+    "superClasses" : [ "28" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Bad_Virus",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Bad_Virus"
+    },
+    "subClasses" : [ "216", "210", "441", "545", "495", "544", "496", "497", "46", "498", "499", "165", "509", "371", "220", "447", "177", "479", "527", "318", "256", "392", "503", "236", "341", "537", "504", "342", "396", "397", "526", "343", "488", "505", "510", "346" ],
+    "intersection" : [ "400" ],
+    "comment" : {
+      "undefined" : "Bad_Virus cause des infections virales"
+    },
+    "attributes" : [ "intersection" ],
+    "id" : "47"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Pneumocoque",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Pneumocoque"
+    },
+    "comment" : {
+      "undefined" : "Vaccin contre la bactérie provoquant notamment des pneumopathies et des méningites"
+    },
+    "id" : "224",
+    "superClasses" : [ "53" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Sleep_Disorder",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Sleep_Disorder"
+    },
+    "id" : "23",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#phosphorus_metabolism",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "phosphorus_metabolism"
+    },
+    "id" : "134",
+    "superClasses" : [ "28" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Syndrom_treatment",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Syndrom_treatment"
+    },
+    "intersection" : [ "61" ],
+    "comment" : {
+      "undefined" : "Syndrome_treatment traite les syndromes"
+    },
+    "attributes" : [ "intersection" ],
+    "id" : "490"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Kidney_cancer",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Kidney_cancer"
+    },
+    "subClasses" : [ "139" ],
+    "id" : "140",
+    "superClasses" : [ "257" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Meningocoque_C",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Meningocoque_C"
+    },
+    "id" : "231",
+    "superClasses" : [ "53" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#choline_deficiency",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "choline_deficiency"
+    },
+    "id" : "128",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Diphteria",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Diphteria"
+    },
+    "id" : "227",
+    "superClasses" : [ "53" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#deficiency_nutrition",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "deficiency_nutrition"
+    },
+    "subClasses" : [ "142", "144", "146", "149", "151", "121", "128", "75", "79", "83", "91", "95", "99" ],
+    "id" : "21",
+    "superClasses" : [ "17" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#vitamin_B12_deficiency",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "vitamin_B12_deficiency"
+    },
+    "id" : "222",
+    "superClasses" : [ "56" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#leptospirosis",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "leptospirosis"
+    },
+    "id" : "292",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#obesity",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "obesity"
+    },
+    "subClasses" : [ "105", "109", "50", "66" ],
+    "id" : "51",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Disease",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Disease"
+    },
+    "subClasses" : [ "45", "6", "11" ],
+    "comment" : {
+      "undefined" : "Liste catégorisée des maladies biologiques humaines."
+    },
+    "id" : "7"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#massive_obesity",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "massive_obesity"
+    },
+    "id" : "66",
+    "superClasses" : [ "51" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#peritoneum_cancer",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "peritoneum_cancer"
+    },
+    "id" : "320",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Uterine_cancer",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Uterine_cancer"
+    },
+    "id" : "119",
+    "superClasses" : [ "117" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Physical_treatment",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Physical_treatment"
+    },
+    "intersection" : [ "61" ],
+    "comment" : {
+      "undefined" : "Physical_treatment traite le physique"
+    },
+    "attributes" : [ "intersection" ],
+    "id" : "459"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#nutrition_disease",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "nutrition_disease"
+    },
+    "subClasses" : [ "16", "21" ],
+    "id" : "17",
+    "superClasses" : [ "101" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Polio",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Polio"
+    },
+    "id" : "232",
+    "superClasses" : [ "53" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Developmental_disorder_of_mental_health",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Developmental_disorder_of_mental_health"
+    },
+    "id" : "348",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#iron_deficiency",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "iron_deficiency"
+    },
+    "id" : "146",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#staphyloenterotoxemia",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "staphyloenterotoxemia"
+    },
+    "id" : "287",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "85",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "411",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "529",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "370",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "372",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "390",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#head_and_neck_cancer",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "head_and_neck_cancer"
+    },
+    "id" : "339",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "460",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#thoracic_cancer",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "thoracic_cancer"
+    },
+    "subClasses" : [ "25" ],
+    "id" : "26",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "168",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Factitious_disorder",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Factitious_disorder"
+    },
+    "id" : "3",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#nocardiosis",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "nocardiosis"
+    },
+    "id" : "435",
+    "superClasses" : [ "187" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#brucellosis",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "brucellosis"
+    },
+    "id" : "298",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Female_breast_cancer",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Female_breast_cancer"
+    },
+    "id" : "244",
+    "superClasses" : [ "25" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#poliomyelitis",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "poliomyelitis"
+    },
+    "id" : "537",
+    "superClasses" : [ "47" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#acute_hemorrhagic_conjunctivitis",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "acute_hemorrhagic_conjunctivitis"
+    },
+    "id" : "526",
+    "superClasses" : [ "47" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#visceral_heterotaxy",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "visceral_heterotaxy"
+    },
+    "id" : "164",
+    "superClasses" : [ "152" ]
+  } ],
+  "property" : [ {
+    "id" : "2",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "5",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "8",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "10",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "13",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "15",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "18",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "20",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "22",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "24",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "30",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "32",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "35",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "37",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "42",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "62",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "63",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "65",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "67",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "69",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "72",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "74",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "76",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "78",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "80",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "82",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "84",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "87",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "88",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "90",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "92",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "94",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "96",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "98",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "102",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "104",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "106",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "108",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "112",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "120",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "122",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "125",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "127",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "129",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "131",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "136",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "138",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "141",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "143",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "145",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "148",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "150",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "167",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "172",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "173",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "181",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "183",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "186",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "188",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "190",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "192",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "194",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "196",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "198",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "199",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "201",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "203",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "208",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "211",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "213",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "215",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "221",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "234",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "239",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "241",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "243",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "245",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "246",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "248",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "250",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "251",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "253",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "260",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "261",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "262",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "265",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "267",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "269",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "270",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "273",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "274",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "276",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "277",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "279",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "302",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "304",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "305",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "307",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "309",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "312",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "313",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "314",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "315",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "316",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "319",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "321",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "322",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "324",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "326",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "328",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "330",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "331",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "334",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "335",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "336",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "338",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "340",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "344",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "347",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "349",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "350",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "352",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "354",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "355",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "356",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "86",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "368",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "362",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "363",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "373",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "374",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "376",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "377",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "378",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "379",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "380",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "381",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "382",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "385",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "387",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "389",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "391",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "202",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "394",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "395",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "398",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "403",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "407",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "408",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "409",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "410",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "413",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "414",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "415",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "417",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "418",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "419",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "420",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "421",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "422",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "423",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "424",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "425",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "426",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "427",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "428",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "429",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "430",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "431",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "432",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "433",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "434",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "436",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "438",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "439",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "443",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "174",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "448",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "449",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "450",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "451",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "452",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "453",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "454",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "455",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "456",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "457",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "357",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "458",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "461",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "462",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "463",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "464",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "465",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "466",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "467",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "468",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "469",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "470",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "471",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "472",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "473",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "474",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "475",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "476",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "477",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "478",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "480",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "481",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "482",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "483",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "484",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "485",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "365",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "487",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "489",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "491",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "492",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "493",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "494",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "412",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "333",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "500",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "506",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "507",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "508",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "332",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "364",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "511",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "361",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "360",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "512",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "501",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "514",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "515",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "516",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "517",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "518",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "519",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "520",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "521",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "522",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "523",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "524",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "525",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "528",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "532",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "533",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "534",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "535",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "536",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "538",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "539",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "540",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "541",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "542",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "543",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "546",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "547",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "548",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "549",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "550",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "551",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "552",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "553",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "554",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "555",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "556",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "358",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "557",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "558",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "559",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "560",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "561",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "562",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "563",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "530",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "359",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "170",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "564",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "565",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "367",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "566",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "567",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "568",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "124",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "366",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "4",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "2"
+  }, {
+    "range" : "7",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "5"
+  }, {
+    "range" : "4",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "8"
+  }, {
+    "range" : "7",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "10"
+  }, {
+    "range" : "4",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "13"
+  }, {
+    "range" : "17",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "15"
+  }, {
+    "range" : "4",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "18"
+  }, {
+    "range" : "17",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "20"
+  }, {
+    "range" : "4",
+    "domain" : "23",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "22"
+  }, {
+    "range" : "26",
+    "domain" : "25",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "24"
+  }, {
+    "range" : "4",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "30"
+  }, {
+    "range" : "34",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "32"
+  }, {
+    "range" : "4",
+    "domain" : "36",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "35"
+  }, {
+    "range" : "39",
+    "domain" : "38",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "37"
+  }, {
+    "range" : "4",
+    "domain" : "43",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "42"
+  }, {
+    "range" : "51",
+    "domain" : "50",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "62"
+  }, {
+    "range" : "1",
+    "domain" : "64",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "63"
+  }, {
+    "range" : "51",
+    "domain" : "66",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "65"
+  }, {
+    "range" : "4",
+    "domain" : "68",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "67"
+  }, {
+    "range" : "7",
+    "domain" : "45",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "69"
+  }, {
+    "range" : "1",
+    "domain" : "73",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "72"
+  }, {
+    "range" : "21",
+    "domain" : "75",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "74"
+  }, {
+    "range" : "1",
+    "domain" : "77",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "76"
+  }, {
+    "range" : "21",
+    "domain" : "79",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "78"
+  }, {
+    "range" : "1",
+    "domain" : "81",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "80"
+  }, {
+    "range" : "21",
+    "domain" : "83",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "82"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#reproductive_system_affecte_par",
+    "inverse" : "84",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "range" : "85",
+    "label" : {
+      "IRI-based" : "reproductive_system_affecte_par"
+    },
+    "superproperty" : [ "86" ],
+    "domain" : "85",
+    "attributes" : [ "object" ],
+    "id" : "84"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#skin_affectee_par",
+    "inverse" : "87",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "range" : "85",
+    "label" : {
+      "IRI-based" : "skin_affectee_par"
+    },
+    "superproperty" : [ "86" ],
+    "domain" : "85",
+    "attributes" : [ "object" ],
+    "id" : "87"
+  }, {
+    "range" : "1",
+    "domain" : "89",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "88"
+  }, {
+    "range" : "21",
+    "domain" : "91",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "90"
+  }, {
+    "range" : "1",
+    "domain" : "93",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "92"
+  }, {
+    "range" : "21",
+    "domain" : "95",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "94"
+  }, {
+    "range" : "1",
+    "domain" : "97",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "96"
+  }, {
+    "range" : "21",
+    "domain" : "99",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "98"
+  }, {
+    "range" : "1",
+    "domain" : "103",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "102"
+  }, {
+    "range" : "51",
+    "domain" : "105",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "104"
+  }, {
+    "range" : "1",
+    "domain" : "107",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "106"
+  }, {
+    "range" : "51",
+    "domain" : "109",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "108"
+  }, {
+    "range" : "1",
+    "domain" : "113",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "112"
+  }, {
+    "range" : "21",
+    "domain" : "121",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "120"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite_cancer",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "range" : "123",
+    "label" : {
+      "IRI-based" : "traite_cancer"
+    },
+    "superproperty" : [ "124" ],
+    "domain" : "60",
+    "attributes" : [ "object" ],
+    "id" : "122"
+  }, {
+    "range" : "1",
+    "domain" : "126",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "125"
+  }, {
+    "range" : "21",
+    "domain" : "128",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "127"
+  }, {
+    "range" : "41",
+    "domain" : "130",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "129"
+  }, {
+    "range" : "41",
+    "domain" : "132",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "131"
+  }, {
+    "range" : "41",
+    "domain" : "137",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "136"
+  }, {
+    "range" : "140",
+    "domain" : "139",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "138"
+  }, {
+    "range" : "21",
+    "domain" : "142",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "141"
+  }, {
+    "range" : "21",
+    "domain" : "144",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "143"
+  }, {
+    "range" : "21",
+    "domain" : "146",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "145"
+  }, {
+    "range" : "21",
+    "domain" : "149",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "148"
+  }, {
+    "range" : "21",
+    "domain" : "151",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "150"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#genetic_traite_par",
+    "inverse" : "170",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "range" : "169",
+    "label" : {
+      "IRI-based" : "genetic_traite_par"
+    },
+    "superproperty" : [ "124" ],
+    "domain" : "168",
+    "attributes" : [ "object" ],
+    "id" : "167"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#digestive_system_affecte_par",
+    "inverse" : "172",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "range" : "85",
+    "label" : {
+      "IRI-based" : "digestive_system_affecte_par"
+    },
+    "superproperty" : [ "86" ],
+    "domain" : "85",
+    "attributes" : [ "object" ],
+    "id" : "172"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#affecte_nervous_system",
+    "inverse" : "174",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "range" : "85",
+    "label" : {
+      "IRI-based" : "affecte_nervous_system"
+    },
+    "superproperty" : [ "86" ],
+    "domain" : "130",
+    "attributes" : [ "object" ],
+    "id" : "173"
+  }, {
+    "range" : "41",
+    "domain" : "182",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "181"
+  }, {
+    "range" : "185",
+    "domain" : "184",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "183"
+  }, {
+    "range" : "185",
+    "domain" : "187",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "186"
+  }, {
+    "range" : "41",
+    "domain" : "189",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "188"
+  }, {
+    "range" : "41",
+    "domain" : "191",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "190"
+  }, {
+    "range" : "41",
+    "domain" : "193",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "192"
+  }, {
+    "range" : "41",
+    "domain" : "195",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "194"
+  }, {
+    "range" : "41",
+    "domain" : "197",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "196"
+  }, {
+    "range" : "41",
+    "domain" : "40",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "198"
+  }, {
+    "range" : "41",
+    "domain" : "200",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "199"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#affecte_immune_system",
+    "inverse" : "202",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "range" : "85",
+    "label" : {
+      "IRI-based" : "affecte_immune_system"
+    },
+    "superproperty" : [ "86" ],
+    "domain" : "132",
+    "attributes" : [ "object" ],
+    "id" : "201"
+  }, {
+    "range" : "41",
+    "domain" : "204",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "203"
+  }, {
+    "range" : "209",
+    "domain" : "56",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "208"
+  }, {
+    "range" : "11",
+    "domain" : "212",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "211"
+  }, {
+    "range" : "11",
+    "domain" : "214",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "213"
+  }, {
+    "range" : "47",
+    "domain" : "216",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "215"
+  }, {
+    "range" : "56",
+    "domain" : "222",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "221"
+  }, {
+    "range" : "236",
+    "domain" : "235",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "234"
+  }, {
+    "range" : "236",
+    "domain" : "240",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "239"
+  }, {
+    "range" : "236",
+    "domain" : "242",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "241"
+  }, {
+    "range" : "25",
+    "domain" : "244",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "243"
+  }, {
+    "range" : "209",
+    "domain" : "101",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "245"
+  }, {
+    "range" : "56",
+    "domain" : "247",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "246"
+  }, {
+    "range" : "56",
+    "domain" : "249",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "248"
+  }, {
+    "range" : "56",
+    "domain" : "55",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "250"
+  }, {
+    "range" : "56",
+    "domain" : "252",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "251"
+  }, {
+    "range" : "56",
+    "domain" : "254",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "253"
+  }, {
+    "range" : "71",
+    "domain" : "218",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "260"
+  }, {
+    "range" : "71",
+    "domain" : "180",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "261"
+  }, {
+    "range" : "56",
+    "domain" : "263",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "262"
+  }, {
+    "range" : "56",
+    "domain" : "266",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "265"
+  }, {
+    "range" : "56",
+    "domain" : "268",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "267"
+  }, {
+    "range" : "71",
+    "domain" : "70",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "269"
+  }, {
+    "range" : "71",
+    "domain" : "115",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "270"
+  }, {
+    "range" : "71",
+    "domain" : "255",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "273"
+  }, {
+    "range" : "71",
+    "domain" : "275",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "274"
+  }, {
+    "range" : "71",
+    "domain" : "171",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "276"
+  }, {
+    "range" : "71",
+    "domain" : "278",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "277"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite_sleep_disorder",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "range" : "281",
+    "label" : {
+      "IRI-based" : "traite_sleep_disorder"
+    },
+    "superproperty" : [ "124" ],
+    "domain" : "280",
+    "attributes" : [ "object" ],
+    "id" : "279"
+  }, {
+    "range" : "6",
+    "domain" : "303",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "302"
+  }, {
+    "range" : "101",
+    "domain" : "39",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "304"
+  }, {
+    "range" : "6",
+    "domain" : "306",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "305"
+  }, {
+    "range" : "101",
+    "domain" : "308",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "307"
+  }, {
+    "range" : "6",
+    "domain" : "310",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "309"
+  }, {
+    "range" : "282",
+    "domain" : "34",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "312"
+  }, {
+    "range" : "6",
+    "domain" : "26",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "313"
+  }, {
+    "range" : "282",
+    "domain" : "111",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "314"
+  }, {
+    "range" : "259",
+    "domain" : "258",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "315"
+  }, {
+    "range" : "318",
+    "domain" : "317",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "316"
+  }, {
+    "range" : "6",
+    "domain" : "320",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "319"
+  }, {
+    "range" : "101",
+    "domain" : "28",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "321"
+  }, {
+    "range" : "6",
+    "domain" : "323",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "322"
+  }, {
+    "range" : "101",
+    "domain" : "325",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "324"
+  }, {
+    "range" : "6",
+    "domain" : "327",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "326"
+  }, {
+    "range" : "101",
+    "domain" : "329",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "328"
+  }, {
+    "range" : "6",
+    "domain" : "206",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "330"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#bacterie_cause_infection",
+    "inverse" : "332",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "range" : "85",
+    "label" : {
+      "IRI-based" : "bacterie_cause_infection"
+    },
+    "superproperty" : [ "333" ],
+    "domain" : "185",
+    "attributes" : [ "object" ],
+    "id" : "331"
+  }, {
+    "range" : "101",
+    "domain" : "100",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "334"
+  }, {
+    "range" : "6",
+    "domain" : "282",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "335"
+  }, {
+    "range" : "101",
+    "domain" : "337",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "336"
+  }, {
+    "range" : "6",
+    "domain" : "339",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "338"
+  }, {
+    "range" : "101",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "340"
+  }, {
+    "range" : "39",
+    "domain" : "345",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "344"
+  }, {
+    "range" : "4",
+    "domain" : "348",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "347"
+  }, {
+    "range" : "39",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "349"
+  }, {
+    "range" : "4",
+    "domain" : "351",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "350"
+  }, {
+    "range" : "39",
+    "domain" : "353",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "352"
+  }, {
+    "range" : "4",
+    "domain" : "311",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "354"
+  }, {
+    "range" : "39",
+    "domain" : "264",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "355"
+  }, {
+    "range" : "28",
+    "domain" : "135",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "356"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#affecte",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "range" : "85",
+    "label" : {
+      "IRI-based" : "affecte"
+    },
+    "domain" : "85",
+    "subproperty" : [ "84", "87", "201", "357", "174", "202", "358", "359", "360", "361", "362", "363", "364", "365", "172", "173", "366", "367" ],
+    "attributes" : [ "object" ],
+    "id" : "86"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite_sexual_disorder",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "range" : "370",
+    "label" : {
+      "IRI-based" : "traite_sexual_disorder"
+    },
+    "superproperty" : [ "124" ],
+    "domain" : "369",
+    "attributes" : [ "object" ],
+    "id" : "368"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#affecte_reproductive_system",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "range" : "372",
+    "label" : {
+      "IRI-based" : "affecte_reproductive_system"
+    },
+    "superproperty" : [ "86" ],
+    "domain" : "191",
+    "attributes" : [ "object" ],
+    "id" : "362"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#affecte_nutrition",
+    "inverse" : "360",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "range" : "85",
+    "label" : {
+      "IRI-based" : "affecte_nutrition"
+    },
+    "superproperty" : [ "86" ],
+    "domain" : "40",
+    "attributes" : [ "object" ],
+    "id" : "363"
+  }, {
+    "range" : "28",
+    "domain" : "134",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "373"
+  }, {
+    "range" : "28",
+    "domain" : "133",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "374"
+  }, {
+    "range" : "45",
+    "domain" : "44",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "376"
+  }, {
+    "range" : "45",
+    "domain" : "116",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "377"
+  }, {
+    "range" : "28",
+    "domain" : "27",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "378"
+  }, {
+    "range" : "117",
+    "domain" : "119",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "379"
+  }, {
+    "range" : "272",
+    "domain" : "271",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "380"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#cause",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "range" : "85",
+    "label" : {
+      "IRI-based" : "cause"
+    },
+    "domain" : "85",
+    "subproperty" : [ "333" ],
+    "attributes" : [ "object" ],
+    "id" : "381"
+  }, {
+    "range" : "384",
+    "domain" : "383",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "382"
+  }, {
+    "range" : "272",
+    "domain" : "386",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "385"
+  }, {
+    "range" : "272",
+    "domain" : "388",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "387"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#virus_cause_infection",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "range" : "390",
+    "label" : {
+      "IRI-based" : "virus_cause_infection"
+    },
+    "superproperty" : [ "333" ],
+    "domain" : "47",
+    "attributes" : [ "object" ],
+    "id" : "389"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#hasDisease",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "range" : "85",
+    "label" : {
+      "IRI-based" : "hasDisease"
+    },
+    "domain" : "85",
+    "attributes" : [ "object", "asymmetric" ],
+    "id" : "391"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#immune_system_affecte_par",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "range" : "85",
+    "label" : {
+      "IRI-based" : "immune_system_affecte_par"
+    },
+    "superproperty" : [ "86" ],
+    "domain" : "85",
+    "attributes" : [ "object" ],
+    "id" : "202"
+  }, {
+    "range" : "55",
+    "domain" : "59",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "394"
+  }, {
+    "range" : "55",
+    "domain" : "58",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "395"
+  }, {
+    "range" : "400",
+    "domain" : "399",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "398"
+  }, {
+    "range" : "55",
+    "domain" : "57",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "403"
+  }, {
+    "range" : "177",
+    "domain" : "178",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "407"
+  }, {
+    "range" : "206",
+    "domain" : "207",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "408"
+  }, {
+    "range" : "177",
+    "domain" : "179",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "409"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#mental_traite_par",
+    "inverse" : "412",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "range" : "404",
+    "label" : {
+      "IRI-based" : "mental_traite_par"
+    },
+    "superproperty" : [ "124" ],
+    "domain" : "411",
+    "attributes" : [ "object" ],
+    "id" : "410"
+  }, {
+    "range" : "49",
+    "domain" : "54",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "413"
+  }, {
+    "range" : "49",
+    "domain" : "175",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "414"
+  }, {
+    "range" : "49",
+    "domain" : "48",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "415"
+  }, {
+    "range" : "49",
+    "domain" : "176",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "417"
+  }, {
+    "range" : "152",
+    "domain" : "164",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "418"
+  }, {
+    "range" : "152",
+    "domain" : "163",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "419"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite_infection",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "range" : "402",
+    "label" : {
+      "IRI-based" : "traite_infection"
+    },
+    "superproperty" : [ "124" ],
+    "domain" : "283",
+    "attributes" : [ "object" ],
+    "id" : "420"
+  }, {
+    "range" : "118",
+    "domain" : "384",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "421"
+  }, {
+    "range" : "118",
+    "domain" : "117",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "422"
+  }, {
+    "range" : "152",
+    "domain" : "162",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "423"
+  }, {
+    "range" : "152",
+    "domain" : "161",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "424"
+  }, {
+    "range" : "152",
+    "domain" : "160",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "425"
+  }, {
+    "range" : "152",
+    "domain" : "157",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "426"
+  }, {
+    "range" : "152",
+    "domain" : "156",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "427"
+  }, {
+    "range" : "152",
+    "domain" : "159",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "428"
+  }, {
+    "range" : "152",
+    "domain" : "158",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "429"
+  }, {
+    "range" : "152",
+    "domain" : "153",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "430"
+  }, {
+    "range" : "329",
+    "domain" : "375",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "431"
+  }, {
+    "range" : "152",
+    "domain" : "155",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "432"
+  }, {
+    "range" : "152",
+    "domain" : "154",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "433"
+  }, {
+    "range" : "187",
+    "domain" : "435",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "434"
+  }, {
+    "range" : "437",
+    "domain" : "400",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "436"
+  }, {
+    "range" : "1",
+    "domain" : "285",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "438"
+  }, {
+    "range" : "111",
+    "domain" : "110",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "439"
+  }, {
+    "range" : "437",
+    "domain" : "259",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "443"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#nervous_system_affecte_par",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "range" : "85",
+    "label" : {
+      "IRI-based" : "nervous_system_affecte_par"
+    },
+    "superproperty" : [ "86" ],
+    "domain" : "85",
+    "attributes" : [ "object" ],
+    "id" : "174"
+  }, {
+    "range" : "257",
+    "domain" : "140",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "448"
+  }, {
+    "range" : "16",
+    "domain" : "238",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "449"
+  }, {
+    "range" : "53",
+    "domain" : "233",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "450"
+  }, {
+    "range" : "53",
+    "domain" : "232",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "451"
+  }, {
+    "range" : "16",
+    "domain" : "237",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "452"
+  }, {
+    "range" : "16",
+    "domain" : "51",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "453"
+  }, {
+    "range" : "53",
+    "domain" : "230",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "454"
+  }, {
+    "range" : "53",
+    "domain" : "229",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "455"
+  }, {
+    "range" : "53",
+    "domain" : "231",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "456"
+  }, {
+    "range" : "53",
+    "domain" : "52",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "457"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#affecte_respiratory_system",
+    "inverse" : "361",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "range" : "85",
+    "label" : {
+      "IRI-based" : "affecte_respiratory_system"
+    },
+    "superproperty" : [ "86" ],
+    "domain" : "197",
+    "attributes" : [ "object" ],
+    "id" : "357"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite_physical",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "range" : "460",
+    "label" : {
+      "IRI-based" : "traite_physical"
+    },
+    "superproperty" : [ "124" ],
+    "domain" : "459",
+    "attributes" : [ "object" ],
+    "id" : "458"
+  }, {
+    "range" : "53",
+    "domain" : "227",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "461"
+  }, {
+    "range" : "53",
+    "domain" : "226",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "462"
+  }, {
+    "range" : "53",
+    "domain" : "228",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "463"
+  }, {
+    "range" : "223",
+    "domain" : "53",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "464"
+  }, {
+    "range" : "223",
+    "domain" : "272",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "465"
+  }, {
+    "range" : "53",
+    "domain" : "225",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "466"
+  }, {
+    "range" : "53",
+    "domain" : "224",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "467"
+  }, {
+    "range" : "1",
+    "domain" : "298",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "468"
+  }, {
+    "range" : "1",
+    "domain" : "297",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "469"
+  }, {
+    "range" : "1",
+    "domain" : "114",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "470"
+  }, {
+    "range" : "1",
+    "domain" : "205",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "471"
+  }, {
+    "range" : "1",
+    "domain" : "294",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "472"
+  }, {
+    "range" : "1",
+    "domain" : "296",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "473"
+  }, {
+    "range" : "1",
+    "domain" : "295",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "474"
+  }, {
+    "range" : "1",
+    "domain" : "291",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "475"
+  }, {
+    "range" : "1",
+    "domain" : "290",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "476"
+  }, {
+    "range" : "1",
+    "domain" : "293",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "477"
+  }, {
+    "range" : "1",
+    "domain" : "292",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "478"
+  }, {
+    "range" : "1",
+    "domain" : "289",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "480"
+  }, {
+    "range" : "1",
+    "domain" : "166",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "481"
+  }, {
+    "range" : "1",
+    "domain" : "284",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "482"
+  }, {
+    "range" : "1",
+    "domain" : "219",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "483"
+  }, {
+    "range" : "1",
+    "domain" : "147",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "484"
+  }, {
+    "range" : "1",
+    "domain" : "217",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "485"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#affecte_cardiovascular",
+    "inverse" : "359",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "range" : "85",
+    "label" : {
+      "IRI-based" : "affecte_cardiovascular"
+    },
+    "superproperty" : [ "86" ],
+    "domain" : "189",
+    "attributes" : [ "object" ],
+    "id" : "365"
+  }, {
+    "range" : "1",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "487"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite_syndrome",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "range" : "401",
+    "label" : {
+      "IRI-based" : "traite_syndrome"
+    },
+    "superproperty" : [ "124" ],
+    "domain" : "490",
+    "attributes" : [ "object" ],
+    "id" : "489"
+  }, {
+    "range" : "1",
+    "domain" : "286",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "491"
+  }, {
+    "range" : "1",
+    "domain" : "0",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "492"
+  }, {
+    "range" : "1",
+    "domain" : "288",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "493"
+  }, {
+    "range" : "1",
+    "domain" : "287",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "494"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite_mental",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "range" : "411",
+    "label" : {
+      "IRI-based" : "traite_mental"
+    },
+    "superproperty" : [ "124" ],
+    "domain" : "404",
+    "attributes" : [ "object" ],
+    "id" : "412"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#cause_infection",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "range" : "85",
+    "label" : {
+      "IRI-based" : "cause_infection"
+    },
+    "superproperty" : [ "381" ],
+    "domain" : "85",
+    "subproperty" : [ "389", "331" ],
+    "attributes" : [ "object" ],
+    "id" : "333"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#cause_par",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "range" : "85",
+    "label" : {
+      "IRI-based" : "cause_par"
+    },
+    "domain" : "85",
+    "subproperty" : [ "501", "332" ],
+    "attributes" : [ "object" ],
+    "id" : "500"
+  }, {
+    "range" : "1",
+    "domain" : "300",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "506"
+  }, {
+    "range" : "1",
+    "domain" : "299",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "507"
+  }, {
+    "range" : "1",
+    "domain" : "301",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "508"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#infection_causee_par_bacterie",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "range" : "85",
+    "label" : {
+      "IRI-based" : "infection_causee_par_bacterie"
+    },
+    "superproperty" : [ "500" ],
+    "domain" : "85",
+    "attributes" : [ "object" ],
+    "id" : "332"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#affecte_urinary_system",
+    "inverse" : "358",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "range" : "85",
+    "label" : {
+      "IRI-based" : "affecte_urinary_system"
+    },
+    "superproperty" : [ "86" ],
+    "domain" : "193",
+    "attributes" : [ "object" ],
+    "id" : "364"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#sleep_disorder_traite_par",
+    "inverse" : "279",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "range" : "280",
+    "label" : {
+      "IRI-based" : "sleep_disorder_traite_par"
+    },
+    "superproperty" : [ "124" ],
+    "domain" : "281",
+    "attributes" : [ "object" ],
+    "id" : "511"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#respiratory_system_affecte_par",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "range" : "85",
+    "label" : {
+      "IRI-based" : "respiratory_system_affecte_par"
+    },
+    "superproperty" : [ "86" ],
+    "domain" : "85",
+    "attributes" : [ "object" ],
+    "id" : "361"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#nutrition_affectee_par",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "range" : "85",
+    "label" : {
+      "IRI-based" : "nutrition_affectee_par"
+    },
+    "superproperty" : [ "86" ],
+    "domain" : "85",
+    "attributes" : [ "object" ],
+    "id" : "360"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#syndrome_traite_par",
+    "inverse" : "489",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "range" : "490",
+    "label" : {
+      "IRI-based" : "syndrome_traite_par"
+    },
+    "superproperty" : [ "124" ],
+    "domain" : "401",
+    "attributes" : [ "object" ],
+    "id" : "512"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#infection_cause_par_virus",
+    "inverse" : "389",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "range" : "47",
+    "label" : {
+      "IRI-based" : "infection_cause_par_virus"
+    },
+    "superproperty" : [ "500" ],
+    "domain" : "390",
+    "attributes" : [ "object" ],
+    "id" : "501"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#physical_traite_par",
+    "inverse" : "458",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "range" : "459",
+    "label" : {
+      "IRI-based" : "physical_traite_par"
+    },
+    "superproperty" : [ "124" ],
+    "domain" : "460",
+    "attributes" : [ "object" ],
+    "id" : "514"
+  }, {
+    "range" : "47",
+    "domain" : "343",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "515"
+  }, {
+    "range" : "47",
+    "domain" : "488",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "516"
+  }, {
+    "range" : "47",
+    "domain" : "505",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "517"
+  }, {
+    "range" : "47",
+    "domain" : "510",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "518"
+  }, {
+    "range" : "47",
+    "domain" : "346",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "519"
+  }, {
+    "range" : "441",
+    "domain" : "442",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "520"
+  }, {
+    "range" : "185",
+    "domain" : "71",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "521"
+  }, {
+    "range" : "185",
+    "domain" : "444",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "522"
+  }, {
+    "range" : "185",
+    "domain" : "440",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "523"
+  }, {
+    "range" : "185",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "524"
+  }, {
+    "range" : "47",
+    "domain" : "526",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "525"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#metabolism_traite_par",
+    "inverse" : "530",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "range" : "416",
+    "label" : {
+      "IRI-based" : "metabolism_traite_par"
+    },
+    "superproperty" : [ "124" ],
+    "domain" : "529",
+    "attributes" : [ "object" ],
+    "id" : "528"
+  }, {
+    "range" : "47",
+    "domain" : "392",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "532"
+  }, {
+    "range" : "47",
+    "domain" : "503",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "533"
+  }, {
+    "range" : "47",
+    "domain" : "236",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "534"
+  }, {
+    "range" : "47",
+    "domain" : "341",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "535"
+  }, {
+    "range" : "47",
+    "domain" : "537",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "536"
+  }, {
+    "range" : "47",
+    "domain" : "504",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "538"
+  }, {
+    "range" : "47",
+    "domain" : "342",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "539"
+  }, {
+    "range" : "47",
+    "domain" : "396",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "540"
+  }, {
+    "range" : "47",
+    "domain" : "397",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "541"
+  }, {
+    "range" : "47",
+    "domain" : "318",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "542"
+  }, {
+    "range" : "47",
+    "domain" : "256",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "543"
+  }, {
+    "range" : "47",
+    "domain" : "165",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "546"
+  }, {
+    "range" : "47",
+    "domain" : "509",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "547"
+  }, {
+    "range" : "47",
+    "domain" : "371",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "548"
+  }, {
+    "range" : "47",
+    "domain" : "220",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "549"
+  }, {
+    "range" : "47",
+    "domain" : "447",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "550"
+  }, {
+    "range" : "47",
+    "domain" : "177",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "551"
+  }, {
+    "range" : "47",
+    "domain" : "479",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "552"
+  }, {
+    "range" : "47",
+    "domain" : "527",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "553"
+  }, {
+    "range" : "47",
+    "domain" : "46",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "554"
+  }, {
+    "range" : "47",
+    "domain" : "498",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "555"
+  }, {
+    "range" : "47",
+    "domain" : "499",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "556"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#urinary_system_affecte_par",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "range" : "85",
+    "label" : {
+      "IRI-based" : "urinary_system_affecte_par"
+    },
+    "superproperty" : [ "86" ],
+    "domain" : "85",
+    "attributes" : [ "object" ],
+    "id" : "358"
+  }, {
+    "range" : "47",
+    "domain" : "210",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "557"
+  }, {
+    "range" : "47",
+    "domain" : "441",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "558"
+  }, {
+    "range" : "47",
+    "domain" : "545",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "559"
+  }, {
+    "range" : "47",
+    "domain" : "495",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "560"
+  }, {
+    "range" : "47",
+    "domain" : "544",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "561"
+  }, {
+    "range" : "47",
+    "domain" : "496",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "562"
+  }, {
+    "range" : "47",
+    "domain" : "497",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "563"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite_metabolism",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "range" : "529",
+    "label" : {
+      "IRI-based" : "traite_metabolism"
+    },
+    "superproperty" : [ "124" ],
+    "domain" : "416",
+    "attributes" : [ "object" ],
+    "id" : "530"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#cardiovascular_affecte_par",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "range" : "85",
+    "label" : {
+      "IRI-based" : "cardiovascular_affecte_par"
+    },
+    "superproperty" : [ "86" ],
+    "domain" : "85",
+    "attributes" : [ "object" ],
+    "id" : "359"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite_genetic",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "range" : "168",
+    "label" : {
+      "IRI-based" : "traite_genetic"
+    },
+    "superproperty" : [ "124" ],
+    "domain" : "169",
+    "attributes" : [ "object" ],
+    "id" : "170"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#sorte_de",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "range" : "486",
+    "label" : {
+      "IRI-based" : "sorte_de"
+    },
+    "domain" : "258",
+    "attributes" : [ "object", "someValues", "transitive" ],
+    "id" : "564"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#sorte_de",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "range" : "486",
+    "label" : {
+      "IRI-based" : "sorte_de"
+    },
+    "domain" : "399",
+    "attributes" : [ "object", "someValues", "transitive" ],
+    "id" : "565"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#affecte_skin",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "range" : "406",
+    "label" : {
+      "IRI-based" : "affecte_skin"
+    },
+    "superproperty" : [ "86" ],
+    "domain" : "200",
+    "attributes" : [ "object" ],
+    "id" : "367"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#infection_traitee_par",
+    "inverse" : "420",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "range" : "283",
+    "label" : {
+      "IRI-based" : "infection_traitee_par"
+    },
+    "superproperty" : [ "124" ],
+    "domain" : "402",
+    "attributes" : [ "object" ],
+    "id" : "566"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#sexual_disorder_traite_par",
+    "inverse" : "368",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "range" : "369",
+    "label" : {
+      "IRI-based" : "sexual_disorder_traite_par"
+    },
+    "superproperty" : [ "124" ],
+    "domain" : "370",
+    "attributes" : [ "object" ],
+    "id" : "567"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#cancer_traite_par",
+    "inverse" : "122",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "range" : "60",
+    "label" : {
+      "IRI-based" : "cancer_traite_par"
+    },
+    "superproperty" : [ "124" ],
+    "domain" : "123",
+    "attributes" : [ "object" ],
+    "id" : "568"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "range" : "85",
+    "label" : {
+      "IRI-based" : "traite"
+    },
+    "domain" : "85",
+    "subproperty" : [ "528", "514", "568", "412", "279", "530", "458", "410", "511", "167", "170", "368", "512", "489", "566", "567", "420", "122" ],
+    "attributes" : [ "object" ],
+    "id" : "124"
+  }, {
+    "iri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#affecte_digestive_system",
+    "baseIri" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+    "range" : "405",
+    "label" : {
+      "IRI-based" : "affecte_digestive_system"
+    },
+    "superproperty" : [ "86" ],
+    "domain" : "195",
+    "attributes" : [ "object" ],
+    "id" : "366"
+  } ]
+}

@@ -1,0 +1,2570 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#hasDisease"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Unhealthy"
+  } ]
+}, {
+  "@id" : "_:genid101",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Cancer"
+    }, {
+      "@id" : "_:genid103"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid103",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Urinary_System"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#affecte_urinary_system"
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Treatment"
+    }, {
+      "@id" : "_:genid13"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Cancer"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite_cancer"
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "_:genid19"
+    }, {
+      "@id" : "_:genid17"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Disease"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite"
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#sorte_de"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Treatment"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#hasDisease"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Disease"
+  } ]
+}, {
+  "@id" : "_:genid20",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Treatment"
+    }, {
+      "@id" : "_:genid22"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid22",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Genetic"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite_genetic"
+  } ]
+}, {
+  "@id" : "_:genid24",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#sorte_de"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Cure"
+  } ]
+}, {
+  "@id" : "_:genid25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#sorte_de"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Cure"
+  } ]
+}, {
+  "@id" : "_:genid26",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Disease"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#hasDisease"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "0"
+  } ]
+}, {
+  "@id" : "_:genid27",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Treatment"
+    }, {
+      "@id" : "_:genid29"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid29",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Infection"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite_infection"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Bacteria"
+    }, {
+      "@id" : "_:genid5"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid31",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Disease"
+    }, {
+      "@id" : "_:genid33"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid33",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Nervous_System"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#affecte_nervous_system"
+  } ]
+}, {
+  "@id" : "_:genid35",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Treatment"
+    }, {
+      "@id" : "_:genid37"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid37",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Mental"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite_mental"
+  } ]
+}, {
+  "@id" : "_:genid39",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Disease"
+    }, {
+      "@id" : "_:genid41"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid41",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Nutrition"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#affecte_nutrition"
+  } ]
+}, {
+  "@id" : "_:genid43",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Treatment"
+    }, {
+      "@id" : "_:genid45"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid45",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Metabolism"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite_metabolism"
+  } ]
+}, {
+  "@id" : "_:genid47",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Disease"
+    }, {
+      "@id" : "_:genid49"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid49",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "_:genid50"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#affecte"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#bacterial_infectious_disease"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#bacterie_cause_infection"
+  } ]
+}, {
+  "@id" : "_:genid50",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Cardiovascular"
+    }, {
+      "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Head_and_Neck"
+    }, {
+      "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Nutrition"
+    }, {
+      "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Skin"
+    }, {
+      "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Urinary_System"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid57",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Treatment"
+    }, {
+      "@id" : "_:genid59"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid59",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Physical"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite_physical"
+  } ]
+}, {
+  "@id" : "_:genid61",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Mental_treatment"
+    }, {
+      "@id" : "_:genid63"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid63",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Sexual_disorder"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite_sexual_disorder"
+  } ]
+}, {
+  "@id" : "_:genid65",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Mental_treatment"
+    }, {
+      "@id" : "_:genid67"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid67",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Sleep_Disorder"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite_sleep_disorder"
+  } ]
+}, {
+  "@id" : "_:genid69",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Treatment"
+    }, {
+      "@id" : "_:genid71"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Virus"
+    }, {
+      "@id" : "_:genid9"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid71",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Syndrome"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite_syndrome"
+  } ]
+}, {
+  "@id" : "_:genid73",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Disease"
+    }, {
+      "@id" : "_:genid75"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid75",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "_:genid76"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#affecte"
+  } ]
+}, {
+  "@id" : "_:genid76",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Nervous_System"
+    }, {
+      "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Neurological"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid80",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "_:genid84"
+    }, {
+      "@id" : "_:genid82"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid82",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Disease"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#hasDisease"
+  } ]
+}, {
+  "@id" : "_:genid84",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#hasDisease"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Disease"
+  } ]
+}, {
+  "@id" : "_:genid85",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Cancer"
+    }, {
+      "@id" : "_:genid87"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid87",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Cardiovascular"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#affecte_cardiovascular"
+  } ]
+}, {
+  "@id" : "_:genid89",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Cancer"
+    }, {
+      "@id" : "_:genid91"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#viral_infectious_disease"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#virus_cause_infection"
+  } ]
+}, {
+  "@id" : "_:genid91",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Nervous_System"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#affecte_nervous_system"
+  } ]
+}, {
+  "@id" : "_:genid93",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Cancer"
+    }, {
+      "@id" : "_:genid95"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid95",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Reproductive_System"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#affecte_reproductive_system"
+  } ]
+}, {
+  "@id" : "_:genid97",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Cancer"
+    }, {
+      "@id" : "_:genid99"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid99",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Respiratory_System"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#affecte_respiratory_system"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#AIDS_acquired_immunodeficiency_syndrome",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#immunodeficiency_virus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Ajustment_disorder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Mental"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Bacteria",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Causes"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Bad_Bacteria",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Bad_Bacteria font des infections bacteriales"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid3"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Bad_Virus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Bad_Virus cause des infections virales"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid7"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Biliary_tract_cancer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#gastrointestinal_system_cancer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Breast_cancer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#thoracic_cancer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Cancer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Disease"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Cancer_treatment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Cancer_tratment traite le Cancer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid11"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Cardiovascular",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Symptoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Causes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Clean",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#GoodHabits"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Cognitive_disorder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Mental"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Colorectal_cancer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Intestinal_cancer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Coqueluche",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Vaccination"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Cure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Cure peut etre une sorte de traitement pour des maladies"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid15"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Developmental_disorder_of_mental_health",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Mental"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Digestive_System",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Symptoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Diphteria",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Vaccination"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Disease",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Liste catégorisée des maladies biologiques humaines."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Dissociative_disorder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Mental"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Factitious_disorder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Mental"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Female_breast_cancer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Breast_cancer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Female_reproductive_organ_cancer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#reproductive_organ_cancer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Gallbladder_cancer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Biliary_tract_cancer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Gender_identity_disorder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Mental"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Genetic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Disease"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Genetic_treatment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Genetic_treatment traite les maladies génitales"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid20"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#GoodHabits",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Bonne habitude à prendre pour prevenir contre toute eventuelle maladie."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Prevention"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Good_Bacteria",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Good_Bacteria sont des cures"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Bacteria"
+  }, {
+    "@id" : "_:genid24"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Good_Virus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Good_Virus sont des cures"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Virus"
+  }, {
+    "@id" : "_:genid25"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Head_and_Neck",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Symptoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Healthy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Une entité est considéré comme \"Healthy\" si elle ne possède aucune maladie."
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Protected"
+  }, {
+    "@id" : "_:genid26"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#HepatiteB",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Vaccination"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Immune_System",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Symptoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Impulse_control_disorder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Mental"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Infection",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Disease"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Infection_treatment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Infection_treatment traite les infections"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid27"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Influenza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Vaccination"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Influenzae_A_virus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#viral_pneumonia"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Intestinal_cancer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#gastrointestinal_system_cancer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Japanese_encephalitis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Bad_Virus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Kidney_cancer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#urinary_system_cancer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Male_reproductive_organ_cancer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#reproductive_organ_cancer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Meckel's_diverticulum",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Physical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Meningocoque_C",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Vaccination"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Mental",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid31"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Mental_treatment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Mental_traite le mental ( voir aussi sleep and sexual )"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid35"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Metabolism",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid39"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Metabolism_treatment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Metabolism_tratment traite le Metabolism"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid43"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Musculoskeletal_System",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Symptoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Nervous_System",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Symptoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Neurological",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Symptoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Nutrition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Symptoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Oreillons",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Vaccination"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Pancreatic_cancer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#endocrine_gland_cancer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Personality_disorder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Mental"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Physical",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid47"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Physical_treatment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Physical_treatment traite le physique"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid57"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Pneumocoque",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Vaccin contre la bactérie provoquant notamment des pneumopathies et des méningites"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Vaccination"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Polio",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Vaccination"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Prevention",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Prevention de maladies(virus/bactérie) principaux"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Prostate_cancer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Male_reproductive_organ_cancer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Protected",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Renal_carcinoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Kidney_cancer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Reproductive_System",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Symptoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Respiratory_System",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Symptoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Rougeole",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Vaccination"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Rubeole",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Vaccination"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Sexual_Disorder_treatment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Sexual_disorder_treatment traite le Sexual_disorder"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid61"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Sexual_disorder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Mental"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Skin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Symptoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Sleep_Disorder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Mental"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Sleep_Disorder_treatment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Sleep_disorder_treatment traite le sleep_disorder"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid65"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Somatoform_disorder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Mental"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Sports",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#GoodHabits"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Substance_related_disorder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Mental"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Symptoms",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Syndrom_treatment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Syndrome_treatment traite les syndromes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid69"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Syndrome",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid73"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Tetanos",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Vaccination"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Treatment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Unhealthy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Une entité est considéré comme \"Unhealthy\" si elle possède des maladies ou au moins une maladie."
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid80"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Urinary_System",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Symptoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Uterine_cancer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Female_reproductive_organ_cancer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Vaccination",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Les 11 vaccins obligatoires à réaliser pour être suffisemment protégé et non intégralement."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Prevention"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Virus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Causes"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#WashHands",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#GoodHabits"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Zika",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Bad_Virus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#acquired_metabolic_disease",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Metabolism"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#actinobacillosis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#commensal_bacteria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#actinomycosis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#commensal_bacteria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#acute_hemorrhagic_conjunctivitis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Bad_Virus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#affecte",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#affecte_cardiovascular",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Cardiovascular"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#affecte"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#cardiovascular_affecte_par"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#affecte_digestive_system",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Digestive_System"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#affecte"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#affecte_immune_system",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Immune_System"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#affecte"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#immune_system_affecte_par"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#affecte_nervous_system",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Nervous_System"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#affecte"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#nervous_system_affecte_par"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#affecte_nutrition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Nutrition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#affecte"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#nutrition_affectee_par"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#affecte_reproductive_system",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Reproductive_System"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#affecte"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#affecte_respiratory_system",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Respiratory_System"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#affecte"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#respiratory_system_affecte_par"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#affecte_skin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Skin"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#affecte"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#affecte_urinary_system",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Urinary_System"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#affecte"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#urinary_system_affecte_par"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#agnathia-otocephaly_complex",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Physical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#amino_acid_deficiency",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#inherited_metabolic_disorder"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#amyloidosis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#acquired_metabolic_disease"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#anorexia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#deficiency_nutrition"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#anthrax",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#primary_bacteria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#ariboflavinosis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#deficiency_nutrition"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#bacterial_infectious_disease",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Infection"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#bacterial_sepsis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Bad_Bacteria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#bacterie_cause_infection",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Bad_Bacteria"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#cause_infection"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#infection_causee_par_bacterie"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#bartonellosis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#primary_bacteria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#bejel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#primary_bacteria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#beriberi",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#deficiency_nutrition"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#biotin_deficiency",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#deficiency_nutrition"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#bladder_exstrophy-epispadias-cloacal_exstrophy_complex",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Physical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#botulism",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#primary_bacteria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#brucellosis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#primary_bacteria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#buruli_ulcer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#primary_bacteria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#calcium_metabolism",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#mineral_metabolism_disease"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#cancer_traite_par",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite_cancer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#cardiovascular_affecte_par",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#affecte"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#cardiovascular_cancer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "cardiovascular cancer affecte Cardiovascular"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid85"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#carotenemia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#acquired_metabolic_disease"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#cause",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#cause_infection",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#cause"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#cause_par",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#chancroid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#primary_bacteria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#chickenpox",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Bad_Virus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#chikungunya",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Bad_Virus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#chlamydia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#commensal_bacteria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#cholera",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#primary_bacteria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#choline_deficiency",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#deficiency_nutrition"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#chromosomal_disease",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Genetic"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#commensal_bacteria",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Bad_Bacteria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#cowpox",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Bad_Virus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#cryptorchidism",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Physical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#deficiency_nutrition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#nutrition_disease"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#dengue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Bad_Virus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#diabetes_mellitus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#glucose_metabolism_disease"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#digestive_system_affecte_par",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#affecte"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#digestive_system_affecte_par"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#dihydropyrimidine_dehydrogenase_deficiency",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#inherited_metabolic_disorder"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#diphtheria",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#primary_bacteria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#dopamine_beta-hydroxylase_deficiency",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#inherited_metabolic_disorder"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#ebola",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Bad_Virus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#eczema_herpeticum",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#herpes"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#ehrlichiosis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#primary_bacteria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#endocrine_gland_cancer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Cancer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#erysipeloid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#primary_bacteria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#erythema",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Bad_Virus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#exanthema_subitum",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Bad_Virus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#folic_acid_deficiency",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#deficiency_nutrition"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#gas_gangrene",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#commensal_bacteria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#gastrointestinal_system_cancer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Cancer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#gastroschisis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Physical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#genetic_traite_par",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite_genetic"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#genital_herpes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#herpes"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#gestational_diabetes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#diabetes_mellitus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#glanders",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#primary_bacteria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#glucose_metabolism_disease",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#acquired_metabolic_disease"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#glycerol_kinase_deficiency",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#inherited_metabolic_disorder"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#gonorrhea",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#primary_bacteria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#granuloma_inguinale",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#primary_bacteria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#hasDisease",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid2"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#head_and_neck_cancer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Cancer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#hematologic_cancer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Cancer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#hepatitis_A",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Bad_Virus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#hepatitis_B",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Bad_Virus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#hepatitis_C",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Bad_Virus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#hepatitis_D",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Bad_Virus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#hepatitis_E",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Bad_Virus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#herpangina",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Bad_Virus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#herpes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Bad_Virus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#herpetic_whitlow",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#herpes"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#hyperglycemia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#glucose_metabolism_disease"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#hyperinsulinism",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#glucose_metabolism_disease"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#hyperprolactinemia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#acquired_metabolic_disease"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#hyperuricemia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#acquired_metabolic_disease"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#hypervitaminosis_A",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#overnutrition"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#hypervitaminosis_D",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#overnutrition"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#hypoglycemia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#glucose_metabolism_disease"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#hypokalemia_metabolism",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#mineral_metabolism_disease"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#hypospadias",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Physical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#immune_system_affecte_par",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#affecte"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#immune_system_cancer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Cancer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#immunodeficiency_virus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Bad_Virus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#imperforate_anus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Physical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#inclusion_conjunctivitis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#commensal_bacteria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#infection_cause_par_virus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#cause_par"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#virus_cause_infection"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#infection_causee_par_bacterie",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#cause_par"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#infection_traitee_par",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite_infection"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#influenza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Bad_Virus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#inherited_metabolic_disorder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Metabolism"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#integumentary_system_cancer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Cancer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#iron_deficiency",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#deficiency_nutrition"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#iron_metabolism",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#mineral_metabolism_disease"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#lactic_acidosis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#metabolic_acidosis"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#legionellosis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#primary_bacteria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#leprosy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#primary_bacteria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#leptospirosis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#primary_bacteria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#listeriosis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#primary_bacteria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#lyme",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#primary_bacteria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#lymphocytic_choriomeningitis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Bad_Virus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#lymphogranuloma_venereum",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#commensal_bacteria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#massive_obesity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#obesity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#measles",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Bad_Virus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#melioidosis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#primary_bacteria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#mental_traite_par",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite_mental"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#metabolic_acidosis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#acquired_metabolic_disease"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#metabolism_traite_par",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite_metabolism"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#mineral_metabolism_disease",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#acquired_metabolic_disease"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#mitochondrial_complex_III_deficiency",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#mitochondrial_metabolism"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#mitochondrial_complex_II_deficiency",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#mitochondrial_metabolism"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#mitochondrial_complex_I_deficiency",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#mitochondrial_metabolism"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#mitochondrial_metabolism",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#inherited_metabolic_disorder"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#moderate_obesity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#obesity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#molluscum_contagiosum",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Bad_Virus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#monkeypox",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Bad_Virus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#monogenic_disease",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Genetic"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#morbid_obesity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#obesity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#musculoskeletal_system_cancer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Cancer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#neonatal_diabetes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#diabetes_mellitus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#nervous_system_affecte_par",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#affecte"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#nervous_system_cancer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "nervous_system_cancer affecte Nervous_System"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid89"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#nocardiosis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#opportunistic_bacteria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#nutrition_affectee_par",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#affecte"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#nutrition_disease",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#acquired_metabolic_disease"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#obesity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#overnutrition"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#omphalocele",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Physical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#opportunistic_bacteria",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Bad_Bacteria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#ornithosis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#primary_bacteria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#overnutrition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#nutrition_disease"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#paratyphoid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#primary_bacteria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#pasteurellosis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#primary_bacteria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#pellagra",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#deficiency_nutrition"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#peritoneum_cancer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Cancer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#peroxisomal_deficiency",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#inherited_metabolic_disorder"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#pertussis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#commensal_bacteria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#pharyngoconjunctival",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Bad_Virus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#phosphorus_metabolism",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#mineral_metabolism_disease"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#physical_traite_par",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite_physical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#plague",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#primary_bacteria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#plasma_protein_deficiency",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#inherited_metabolic_disorder"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#poliomyelitis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Bad_Virus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#polydactyly",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Physical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#primary_bacteria",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Bad_Bacteria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#pyridoxine_deficiency",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#deficiency_nutrition"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#rabies",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Bad_Virus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#radioulnar_synostosis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Physical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#renal-hepatic-pancreatic_dysplasia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Physical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#reproductive_organ_cancer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid93"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#reproductive_system_affecte_par",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#affecte"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#reproductive_system_affecte_par"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#respiratory_system_affecte_par",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#affecte"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#respiratory_system_cancer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid97"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#retroperitoneal_cancer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Cancer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#rheumatic_fever",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Bad_Bacteria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#rheumatic_myocarditis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Bad_Bacteria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#rhinoscleroma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#primary_bacteria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#rubella",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Bad_Virus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#salmonellosis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#primary_bacteria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#scurvy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#deficiency_nutrition"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#sennetsu",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#primary_bacteria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#severe_obesity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#obesity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#sexual_disorder_traite_par",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite_sexual_disorder"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#shigellosis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#primary_bacteria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#skin_affectee_par",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#affecte"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#skin_affectee_par"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#sleep_disorder_traite_par",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite_sleep_disorder"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#smallpox",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Bad_Virus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#sodoku",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#primary_bacteria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#sorte_de",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#staphyloenterotoxemia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#primary_bacteria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#steatitis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#deficiency_nutrition"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#subacute_sclerosing_panencephalitis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Bad_Virus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#swayback",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#deficiency_nutrition"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#syndrome_traite_par",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite_syndrome"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#syphilis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#primary_bacteria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#tetanus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#primary_bacteria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#thiopurine_S-methyltransferase_deficiency",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#inherited_metabolic_disorder"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#thoracic_cancer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Cancer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#tick-borne_encephalitis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Bad_Virus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#trachoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#commensal_bacteria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite_cancer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Cancer_treatment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite_genetic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Genetic_treatment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite_infection",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Infection_treatment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite_mental",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Mental_treatment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite_metabolism",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Metabolism_treatment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite_physical",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Physical_treatment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite_sexual_disorder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Sexual_Disorder_treatment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite_sleep_disorder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Sleep_Disorder_treatment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite_syndrome",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Syndrom_treatment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#triosephosphate_isomerase_deficiency",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#glucose_metabolism_disease"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#tropical_spastic_paraparesis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Bad_Virus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#tuberculosis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#primary_bacteria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#tularemia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#primary_bacteria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#type_1_diabetes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#diabetes_mellitus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#type_2_diabetes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#diabetes_mellitus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#typhoid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#primary_bacteria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#typhus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#primary_bacteria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#urinary_system_affecte_par",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#affecte"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#urinary_system_cancer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid101"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#vaccinia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Bad_Virus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#variola_major",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#smallpox"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#variola_minor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#smallpox"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#viral_encephalitis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Bad_Virus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#viral_hepatitis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Bad_Virus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#viral_infectious_disease",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Infection"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#viral_pneumonia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Bad_Virus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#virus_cause_infection",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Bad_Virus"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#cause_infection"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#visceral_heterotaxy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Physical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#vitaminK_deficiency",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#deficiency_nutrition"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#vitamin_B12_deficiency",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#inherited_metabolic_disorder"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#yaws",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#primary_bacteria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#yellow_fever",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Bad_Virus"
+  } ]
+} ]

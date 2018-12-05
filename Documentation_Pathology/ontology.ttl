@@ -1,0 +1,1839 @@
+@prefix : <http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology> .
+
+<http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#affecte
+:affecte rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#affecte_cardiovascular
+:affecte_cardiovascular rdf:type owl:ObjectProperty ;
+                        rdfs:subPropertyOf :affecte ;
+                        owl:inverseOf :cardiovascular_affecte_par ;
+                        rdfs:domain :Cardiovascular .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#affecte_digestive_system
+:affecte_digestive_system rdf:type owl:ObjectProperty ;
+                          rdfs:subPropertyOf :affecte ;
+                          rdfs:domain :Digestive_System .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#affecte_immune_system
+:affecte_immune_system rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf :affecte ;
+                       owl:inverseOf :immune_system_affecte_par ;
+                       rdfs:domain :Immune_System .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#affecte_nervous_system
+:affecte_nervous_system rdf:type owl:ObjectProperty ;
+                        rdfs:subPropertyOf :affecte ;
+                        owl:inverseOf :nervous_system_affecte_par ;
+                        rdfs:domain :Nervous_System .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#affecte_nutrition
+:affecte_nutrition rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf :affecte ;
+                   owl:inverseOf :nutrition_affectee_par ;
+                   rdfs:domain :Nutrition .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#affecte_reproductive_system
+:affecte_reproductive_system rdf:type owl:ObjectProperty ;
+                             rdfs:subPropertyOf :affecte ;
+                             rdfs:domain :Reproductive_System .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#affecte_respiratory_system
+:affecte_respiratory_system rdf:type owl:ObjectProperty ;
+                            rdfs:subPropertyOf :affecte ;
+                            owl:inverseOf :respiratory_system_affecte_par ;
+                            rdfs:domain :Respiratory_System .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#affecte_skin
+:affecte_skin rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf :affecte ;
+              rdfs:domain :Skin .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#affecte_urinary_system
+:affecte_urinary_system rdf:type owl:ObjectProperty ;
+                        rdfs:subPropertyOf :affecte ;
+                        owl:inverseOf :urinary_system_affecte_par ;
+                        rdfs:domain :Urinary_System .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#bacterie_cause_infection
+:bacterie_cause_infection rdf:type owl:ObjectProperty ;
+                          rdfs:subPropertyOf :cause_infection ;
+                          owl:inverseOf :infection_causee_par_bacterie ;
+                          rdfs:domain :Bad_Bacteria .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#cancer_traite_par
+:cancer_traite_par rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf :traite ;
+                   owl:inverseOf :traite_cancer .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#cardiovascular_affecte_par
+:cardiovascular_affecte_par rdf:type owl:ObjectProperty ;
+                            rdfs:subPropertyOf :affecte .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#cause
+:cause rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#cause_infection
+:cause_infection rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf :cause .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#cause_par
+:cause_par rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#digestive_system_affecte_par
+:digestive_system_affecte_par rdf:type owl:ObjectProperty ;
+                              rdfs:subPropertyOf :affecte ;
+                              owl:inverseOf :digestive_system_affecte_par .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#genetic_traite_par
+:genetic_traite_par rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf :traite ;
+                    owl:inverseOf :traite_genetic .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#hasDisease
+:hasDisease rdf:type owl:ObjectProperty ,
+                     owl:AsymmetricProperty ;
+            rdfs:domain [ rdf:type owl:Restriction ;
+                          owl:onProperty :hasDisease ;
+                          owl:someValuesFrom :Unhealthy
+                        ] ;
+            rdfs:range [ rdf:type owl:Restriction ;
+                         owl:onProperty :hasDisease ;
+                         owl:someValuesFrom :Disease
+                       ] .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#immune_system_affecte_par
+:immune_system_affecte_par rdf:type owl:ObjectProperty ;
+                           rdfs:subPropertyOf :affecte .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#infection_cause_par_virus
+:infection_cause_par_virus rdf:type owl:ObjectProperty ;
+                           rdfs:subPropertyOf :cause_par ;
+                           owl:inverseOf :virus_cause_infection .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#infection_causee_par_bacterie
+:infection_causee_par_bacterie rdf:type owl:ObjectProperty ;
+                               rdfs:subPropertyOf :cause_par .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#infection_traitee_par
+:infection_traitee_par rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf :traite ;
+                       owl:inverseOf :traite_infection .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#mental_traite_par
+:mental_traite_par rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf :traite ;
+                   owl:inverseOf :traite_mental .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#metabolism_traite_par
+:metabolism_traite_par rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf :traite ;
+                       owl:inverseOf :traite_metabolism .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#nervous_system_affecte_par
+:nervous_system_affecte_par rdf:type owl:ObjectProperty ;
+                            rdfs:subPropertyOf :affecte .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#nutrition_affectee_par
+:nutrition_affectee_par rdf:type owl:ObjectProperty ;
+                        rdfs:subPropertyOf :affecte .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#physical_traite_par
+:physical_traite_par rdf:type owl:ObjectProperty ;
+                     rdfs:subPropertyOf :traite ;
+                     owl:inverseOf :traite_physical .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#reproductive_system_affecte_par
+:reproductive_system_affecte_par rdf:type owl:ObjectProperty ;
+                                 rdfs:subPropertyOf :affecte ;
+                                 owl:inverseOf :reproductive_system_affecte_par .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#respiratory_system_affecte_par
+:respiratory_system_affecte_par rdf:type owl:ObjectProperty ;
+                                rdfs:subPropertyOf :affecte .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#sexual_disorder_traite_par
+:sexual_disorder_traite_par rdf:type owl:ObjectProperty ;
+                            rdfs:subPropertyOf :traite ;
+                            owl:inverseOf :traite_sexual_disorder .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#skin_affectee_par
+:skin_affectee_par rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf :affecte ;
+                   owl:inverseOf :skin_affectee_par .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#sleep_disorder_traite_par
+:sleep_disorder_traite_par rdf:type owl:ObjectProperty ;
+                           rdfs:subPropertyOf :traite ;
+                           owl:inverseOf :traite_sleep_disorder .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#sorte_de
+:sorte_de rdf:type owl:ObjectProperty ,
+                   owl:TransitiveProperty .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#syndrome_traite_par
+:syndrome_traite_par rdf:type owl:ObjectProperty ;
+                     rdfs:subPropertyOf :traite ;
+                     owl:inverseOf :traite_syndrome .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite
+:traite rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite_cancer
+:traite_cancer rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :traite ;
+               rdfs:domain :Cancer_treatment .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite_genetic
+:traite_genetic rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :traite ;
+                rdfs:domain :Genetic_treatment .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite_infection
+:traite_infection rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf :traite ;
+                  rdfs:domain :Infection_treatment .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite_mental
+:traite_mental rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :traite ;
+               rdfs:domain :Mental_treatment .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite_metabolism
+:traite_metabolism rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf :traite ;
+                   rdfs:domain :Metabolism_treatment .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite_physical
+:traite_physical rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf :traite ;
+                 rdfs:domain :Physical_treatment .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite_sexual_disorder
+:traite_sexual_disorder rdf:type owl:ObjectProperty ;
+                        rdfs:subPropertyOf :traite ;
+                        rdfs:domain :Sexual_Disorder_treatment .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite_sleep_disorder
+:traite_sleep_disorder rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf :traite ;
+                       rdfs:domain :Sleep_Disorder_treatment .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#traite_syndrome
+:traite_syndrome rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf :traite ;
+                 rdfs:domain :Syndrom_treatment .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#urinary_system_affecte_par
+:urinary_system_affecte_par rdf:type owl:ObjectProperty ;
+                            rdfs:subPropertyOf :affecte .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#virus_cause_infection
+:virus_cause_infection rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf :cause_infection ;
+                       rdfs:domain :Bad_Virus .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#AIDS_acquired_immunodeficiency_syndrome
+:AIDS_acquired_immunodeficiency_syndrome rdf:type owl:Class ;
+                                         rdfs:subClassOf :immunodeficiency_virus .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Ajustment_disorder
+:Ajustment_disorder rdf:type owl:Class ;
+                    rdfs:subClassOf :Mental .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Bacteria
+:Bacteria rdf:type owl:Class ;
+          rdfs:subClassOf :Causes .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Bad_Bacteria
+:Bad_Bacteria rdf:type owl:Class ;
+              rdfs:subClassOf [ owl:intersectionOf ( :Bacteria
+                                                     [ rdf:type owl:Restriction ;
+                                                       owl:onProperty :bacterie_cause_infection ;
+                                                       owl:allValuesFrom :bacterial_infectious_disease
+                                                     ]
+                                                   ) ;
+                                rdf:type owl:Class
+                              ] ;
+              rdfs:comment "Bad_Bacteria font des infections bacteriales" .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Bad_Virus
+:Bad_Virus rdf:type owl:Class ;
+           rdfs:subClassOf [ owl:intersectionOf ( :Virus
+                                                  [ rdf:type owl:Restriction ;
+                                                    owl:onProperty :virus_cause_infection ;
+                                                    owl:allValuesFrom :viral_infectious_disease
+                                                  ]
+                                                ) ;
+                             rdf:type owl:Class
+                           ] ;
+           rdfs:comment "Bad_Virus cause des infections virales" .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Biliary_tract_cancer
+:Biliary_tract_cancer rdf:type owl:Class ;
+                      rdfs:subClassOf :gastrointestinal_system_cancer .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Breast_cancer
+:Breast_cancer rdf:type owl:Class ;
+               rdfs:subClassOf :thoracic_cancer .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Cancer
+:Cancer rdf:type owl:Class ;
+        rdfs:subClassOf :Disease .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Cancer_treatment
+:Cancer_treatment rdf:type owl:Class ;
+                  rdfs:subClassOf [ owl:intersectionOf ( :Treatment
+                                                         [ rdf:type owl:Restriction ;
+                                                           owl:onProperty :traite_cancer ;
+                                                           owl:allValuesFrom :Cancer
+                                                         ]
+                                                       ) ;
+                                    rdf:type owl:Class
+                                  ] ;
+                  rdfs:comment "Cancer_tratment traite le Cancer" .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Cardiovascular
+:Cardiovascular rdf:type owl:Class ;
+                rdfs:subClassOf :Symptoms .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Causes
+:Causes rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Clean
+:Clean rdf:type owl:Class ;
+       rdfs:subClassOf :GoodHabits .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Cognitive_disorder
+:Cognitive_disorder rdf:type owl:Class ;
+                    rdfs:subClassOf :Mental .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Colorectal_cancer
+:Colorectal_cancer rdf:type owl:Class ;
+                   rdfs:subClassOf :Intestinal_cancer .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Coqueluche
+:Coqueluche rdf:type owl:Class ;
+            rdfs:subClassOf :Vaccination .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Cure
+:Cure rdf:type owl:Class ;
+      rdfs:subClassOf [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                               owl:onProperty :sorte_de ;
+                                               owl:someValuesFrom :Treatment
+                                             ]
+                                             [ rdf:type owl:Restriction ;
+                                               owl:onProperty :traite ;
+                                               owl:allValuesFrom :Disease
+                                             ]
+                                           ) ;
+                        rdf:type owl:Class
+                      ] ;
+      rdfs:comment "Cure peut etre une sorte de traitement pour des maladies" .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Developmental_disorder_of_mental_health
+:Developmental_disorder_of_mental_health rdf:type owl:Class ;
+                                         rdfs:subClassOf :Mental .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Digestive_System
+:Digestive_System rdf:type owl:Class ;
+                  rdfs:subClassOf :Symptoms .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Diphteria
+:Diphteria rdf:type owl:Class ;
+           rdfs:subClassOf :Vaccination .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Disease
+:Disease rdf:type owl:Class ;
+         rdfs:comment "Liste catégorisée des maladies biologiques humaines." .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Dissociative_disorder
+:Dissociative_disorder rdf:type owl:Class ;
+                       rdfs:subClassOf :Mental .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Factitious_disorder
+:Factitious_disorder rdf:type owl:Class ;
+                     rdfs:subClassOf :Mental .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Female_breast_cancer
+:Female_breast_cancer rdf:type owl:Class ;
+                      rdfs:subClassOf :Breast_cancer .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Female_reproductive_organ_cancer
+:Female_reproductive_organ_cancer rdf:type owl:Class ;
+                                  rdfs:subClassOf :reproductive_organ_cancer .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Gallbladder_cancer
+:Gallbladder_cancer rdf:type owl:Class ;
+                    rdfs:subClassOf :Biliary_tract_cancer .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Gender_identity_disorder
+:Gender_identity_disorder rdf:type owl:Class ;
+                          rdfs:subClassOf :Mental .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Genetic
+:Genetic rdf:type owl:Class ;
+         rdfs:subClassOf :Disease .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Genetic_treatment
+:Genetic_treatment rdf:type owl:Class ;
+                   rdfs:subClassOf [ owl:intersectionOf ( :Treatment
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty :traite_genetic ;
+                                                            owl:allValuesFrom :Genetic
+                                                          ]
+                                                        ) ;
+                                     rdf:type owl:Class
+                                   ] ;
+                   rdfs:comment "Genetic_treatment traite les maladies génitales" .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#GoodHabits
+:GoodHabits rdf:type owl:Class ;
+            rdfs:subClassOf :Prevention ;
+            rdfs:comment "Bonne habitude à prendre pour prevenir contre toute eventuelle maladie." .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Good_Bacteria
+:Good_Bacteria rdf:type owl:Class ;
+               rdfs:subClassOf :Bacteria ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty :sorte_de ;
+                                 owl:someValuesFrom :Cure
+                               ] ;
+               rdfs:comment "Good_Bacteria sont des cures" .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Good_Virus
+:Good_Virus rdf:type owl:Class ;
+            rdfs:subClassOf :Virus ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :sorte_de ;
+                              owl:someValuesFrom :Cure
+                            ] ;
+            rdfs:comment "Good_Virus sont des cures" .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Head_and_Neck
+:Head_and_Neck rdf:type owl:Class ;
+               rdfs:subClassOf :Symptoms .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Healthy
+:Healthy rdf:type owl:Class ;
+         owl:equivalentClass :Protected ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty :hasDisease ;
+                               owl:qualifiedCardinality "0"^^xsd:nonNegativeInteger ;
+                               owl:onClass :Disease
+                             ] ;
+         rdfs:comment "Une entité est considéré comme \"Healthy\" si elle ne possède aucune maladie." .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#HepatiteB
+:HepatiteB rdf:type owl:Class ;
+           rdfs:subClassOf :Vaccination .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Immune_System
+:Immune_System rdf:type owl:Class ;
+               rdfs:subClassOf :Symptoms .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Impulse_control_disorder
+:Impulse_control_disorder rdf:type owl:Class ;
+                          rdfs:subClassOf :Mental .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Infection
+:Infection rdf:type owl:Class ;
+           rdfs:subClassOf :Disease .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Infection_treatment
+:Infection_treatment rdf:type owl:Class ;
+                     rdfs:subClassOf [ owl:intersectionOf ( :Treatment
+                                                            [ rdf:type owl:Restriction ;
+                                                              owl:onProperty :traite_infection ;
+                                                              owl:allValuesFrom :Infection
+                                                            ]
+                                                          ) ;
+                                       rdf:type owl:Class
+                                     ] ;
+                     rdfs:comment "Infection_treatment traite les infections" .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Influenza
+:Influenza rdf:type owl:Class ;
+           rdfs:subClassOf :Vaccination .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Influenzae_A_virus
+:Influenzae_A_virus rdf:type owl:Class ;
+                    rdfs:subClassOf :viral_pneumonia .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Intestinal_cancer
+:Intestinal_cancer rdf:type owl:Class ;
+                   rdfs:subClassOf :gastrointestinal_system_cancer .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Japanese_encephalitis
+:Japanese_encephalitis rdf:type owl:Class ;
+                       rdfs:subClassOf :Bad_Virus .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Kidney_cancer
+:Kidney_cancer rdf:type owl:Class ;
+               rdfs:subClassOf :urinary_system_cancer .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Male_reproductive_organ_cancer
+:Male_reproductive_organ_cancer rdf:type owl:Class ;
+                                rdfs:subClassOf :reproductive_organ_cancer .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Meningocoque_C
+:Meningocoque_C rdf:type owl:Class ;
+                rdfs:subClassOf :Vaccination .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Mental
+:Mental rdf:type owl:Class ;
+        rdfs:subClassOf [ owl:intersectionOf ( :Disease
+                                               [ rdf:type owl:Restriction ;
+                                                 owl:onProperty :affecte_nervous_system ;
+                                                 owl:allValuesFrom :Nervous_System
+                                               ]
+                                             ) ;
+                          rdf:type owl:Class
+                        ] .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Mental_treatment
+:Mental_treatment rdf:type owl:Class ;
+                  rdfs:subClassOf [ owl:intersectionOf ( :Treatment
+                                                         [ rdf:type owl:Restriction ;
+                                                           owl:onProperty :traite_mental ;
+                                                           owl:allValuesFrom :Mental
+                                                         ]
+                                                       ) ;
+                                    rdf:type owl:Class
+                                  ] ;
+                  rdfs:comment "Mental_traite le mental ( voir aussi sleep and sexual )" .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Metabolism
+:Metabolism rdf:type owl:Class ;
+            rdfs:subClassOf [ owl:intersectionOf ( :Disease
+                                                   [ rdf:type owl:Restriction ;
+                                                     owl:onProperty :affecte_nutrition ;
+                                                     owl:allValuesFrom :Nutrition
+                                                   ]
+                                                 ) ;
+                              rdf:type owl:Class
+                            ] .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Metabolism_treatment
+:Metabolism_treatment rdf:type owl:Class ;
+                      rdfs:subClassOf [ owl:intersectionOf ( :Treatment
+                                                             [ rdf:type owl:Restriction ;
+                                                               owl:onProperty :traite_metabolism ;
+                                                               owl:allValuesFrom :Metabolism
+                                                             ]
+                                                           ) ;
+                                        rdf:type owl:Class
+                                      ] ;
+                      rdfs:comment "Metabolism_tratment traite le Metabolism" .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Musculoskeletal_System
+:Musculoskeletal_System rdf:type owl:Class ;
+                        rdfs:subClassOf :Symptoms .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Nervous_System
+:Nervous_System rdf:type owl:Class ;
+                rdfs:subClassOf :Symptoms .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Neurological
+:Neurological rdf:type owl:Class ;
+              rdfs:subClassOf :Symptoms .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Nutrition
+:Nutrition rdf:type owl:Class ;
+           rdfs:subClassOf :Symptoms .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Oreillons
+:Oreillons rdf:type owl:Class ;
+           rdfs:subClassOf :Vaccination .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Pancreatic_cancer
+:Pancreatic_cancer rdf:type owl:Class ;
+                   rdfs:subClassOf :endocrine_gland_cancer .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Personality_disorder
+:Personality_disorder rdf:type owl:Class ;
+                      rdfs:subClassOf :Mental .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Physical
+:Physical rdf:type owl:Class ;
+          rdfs:subClassOf [ owl:intersectionOf ( :Disease
+                                                 [ rdf:type owl:Restriction ;
+                                                   owl:onProperty :affecte ;
+                                                   owl:allValuesFrom [ owl:intersectionOf ( :Cardiovascular
+                                                                                            :Head_and_Neck
+                                                                                            :Nutrition
+                                                                                            :Skin
+                                                                                            :Urinary_System
+                                                                                          ) ;
+                                                                       rdf:type owl:Class
+                                                                     ]
+                                                 ]
+                                               ) ;
+                            rdf:type owl:Class
+                          ] .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Physical_treatment
+:Physical_treatment rdf:type owl:Class ;
+                    rdfs:subClassOf [ owl:intersectionOf ( :Treatment
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty :traite_physical ;
+                                                             owl:allValuesFrom :Physical
+                                                           ]
+                                                         ) ;
+                                      rdf:type owl:Class
+                                    ] ;
+                    rdfs:comment "Physical_treatment traite le physique" .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Pneumocoque
+:Pneumocoque rdf:type owl:Class ;
+             rdfs:subClassOf :Vaccination ;
+             rdfs:comment "Vaccin contre la bactérie provoquant notamment des pneumopathies et des méningites" .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Polio
+:Polio rdf:type owl:Class ;
+       rdfs:subClassOf :Vaccination .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Prevention
+:Prevention rdf:type owl:Class ;
+            rdfs:comment "Prevention de maladies(virus/bactérie) principaux" .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Prostate_cancer
+:Prostate_cancer rdf:type owl:Class ;
+                 rdfs:subClassOf :Male_reproductive_organ_cancer .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Protected
+:Protected rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Renal_carcinoma
+:Renal_carcinoma rdf:type owl:Class ;
+                 rdfs:subClassOf :Kidney_cancer .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Reproductive_System
+:Reproductive_System rdf:type owl:Class ;
+                     rdfs:subClassOf :Symptoms .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Respiratory_System
+:Respiratory_System rdf:type owl:Class ;
+                    rdfs:subClassOf :Symptoms .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Rougeole
+:Rougeole rdf:type owl:Class ;
+          rdfs:subClassOf :Vaccination .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Rubeole
+:Rubeole rdf:type owl:Class ;
+         rdfs:subClassOf :Vaccination .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Sexual_Disorder_treatment
+:Sexual_Disorder_treatment rdf:type owl:Class ;
+                           rdfs:subClassOf [ owl:intersectionOf ( :Mental_treatment
+                                                                  [ rdf:type owl:Restriction ;
+                                                                    owl:onProperty :traite_sexual_disorder ;
+                                                                    owl:allValuesFrom :Sexual_disorder
+                                                                  ]
+                                                                ) ;
+                                             rdf:type owl:Class
+                                           ] ;
+                           rdfs:comment "Sexual_disorder_treatment traite le Sexual_disorder" .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Sexual_disorder
+:Sexual_disorder rdf:type owl:Class ;
+                 rdfs:subClassOf :Mental .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Skin
+:Skin rdf:type owl:Class ;
+      rdfs:subClassOf :Symptoms .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Sleep_Disorder
+:Sleep_Disorder rdf:type owl:Class ;
+                rdfs:subClassOf :Mental .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Sleep_Disorder_treatment
+:Sleep_Disorder_treatment rdf:type owl:Class ;
+                          rdfs:subClassOf [ owl:intersectionOf ( :Mental_treatment
+                                                                 [ rdf:type owl:Restriction ;
+                                                                   owl:onProperty :traite_sleep_disorder ;
+                                                                   owl:allValuesFrom :Sleep_Disorder
+                                                                 ]
+                                                               ) ;
+                                            rdf:type owl:Class
+                                          ] ;
+                          rdfs:comment "Sleep_disorder_treatment traite le sleep_disorder" .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Somatoform_disorder
+:Somatoform_disorder rdf:type owl:Class ;
+                     rdfs:subClassOf :Mental .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Sports
+:Sports rdf:type owl:Class ;
+        rdfs:subClassOf :GoodHabits .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Substance_related_disorder
+:Substance_related_disorder rdf:type owl:Class ;
+                            rdfs:subClassOf :Mental .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Symptoms
+:Symptoms rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Syndrom_treatment
+:Syndrom_treatment rdf:type owl:Class ;
+                   rdfs:subClassOf [ owl:intersectionOf ( :Treatment
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty :traite_syndrome ;
+                                                            owl:allValuesFrom :Syndrome
+                                                          ]
+                                                        ) ;
+                                     rdf:type owl:Class
+                                   ] ;
+                   rdfs:comment "Syndrome_treatment traite les syndromes" .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Syndrome
+:Syndrome rdf:type owl:Class ;
+          rdfs:subClassOf [ owl:intersectionOf ( :Disease
+                                                 [ rdf:type owl:Restriction ;
+                                                   owl:onProperty :affecte ;
+                                                   owl:allValuesFrom [ owl:intersectionOf ( :Nervous_System
+                                                                                            :Neurological
+                                                                                          ) ;
+                                                                       rdf:type owl:Class
+                                                                     ]
+                                                 ]
+                                               ) ;
+                            rdf:type owl:Class
+                          ] .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Tetanos
+:Tetanos rdf:type owl:Class ;
+         rdfs:subClassOf :Vaccination .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Treatment
+:Treatment rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Unhealthy
+:Unhealthy rdf:type owl:Class ;
+           owl:equivalentClass [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                        owl:onProperty :hasDisease ;
+                                                        owl:someValuesFrom :Disease
+                                                      ]
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty :hasDisease ;
+                                                        owl:allValuesFrom :Disease
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
+           rdfs:comment "Une entité est considéré comme \"Unhealthy\" si elle possède des maladies ou au moins une maladie." .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Urinary_System
+:Urinary_System rdf:type owl:Class ;
+                rdfs:subClassOf :Symptoms .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Uterine_cancer
+:Uterine_cancer rdf:type owl:Class ;
+                rdfs:subClassOf :Female_reproductive_organ_cancer .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Vaccination
+:Vaccination rdf:type owl:Class ;
+             rdfs:subClassOf :Prevention ;
+             rdfs:comment "Les 11 vaccins obligatoires à réaliser pour être suffisemment protégé et non intégralement." .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Virus
+:Virus rdf:type owl:Class ;
+       rdfs:subClassOf :Causes .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#WashHands
+:WashHands rdf:type owl:Class ;
+           rdfs:subClassOf :GoodHabits .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Zika
+:Zika rdf:type owl:Class ;
+      rdfs:subClassOf :Bad_Virus .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#acquired_metabolic_disease
+:acquired_metabolic_disease rdf:type owl:Class ;
+                            rdfs:subClassOf :Metabolism .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#actinobacillosis
+:actinobacillosis rdf:type owl:Class ;
+                  rdfs:subClassOf :commensal_bacteria .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#actinomycosis
+:actinomycosis rdf:type owl:Class ;
+               rdfs:subClassOf :commensal_bacteria .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#acute_hemorrhagic_conjunctivitis
+:acute_hemorrhagic_conjunctivitis rdf:type owl:Class ;
+                                  rdfs:subClassOf :Bad_Virus .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#agnathia-otocephaly_complex
+:agnathia-otocephaly_complex rdf:type owl:Class ;
+                             rdfs:subClassOf :Physical .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#amino_acid_deficiency
+:amino_acid_deficiency rdf:type owl:Class ;
+                       rdfs:subClassOf :inherited_metabolic_disorder .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#amyloidosis
+:amyloidosis rdf:type owl:Class ;
+             rdfs:subClassOf :acquired_metabolic_disease .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#anorexia
+:anorexia rdf:type owl:Class ;
+          rdfs:subClassOf :deficiency_nutrition .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#anthrax
+:anthrax rdf:type owl:Class ;
+         rdfs:subClassOf :primary_bacteria .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#ariboflavinosis
+:ariboflavinosis rdf:type owl:Class ;
+                 rdfs:subClassOf :deficiency_nutrition .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#bacterial_infectious_disease
+:bacterial_infectious_disease rdf:type owl:Class ;
+                              rdfs:subClassOf :Infection .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#bacterial_sepsis
+:bacterial_sepsis rdf:type owl:Class ;
+                  rdfs:subClassOf :Bad_Bacteria .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#bartonellosis
+:bartonellosis rdf:type owl:Class ;
+               rdfs:subClassOf :primary_bacteria .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#bejel
+:bejel rdf:type owl:Class ;
+       rdfs:subClassOf :primary_bacteria .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#beriberi
+:beriberi rdf:type owl:Class ;
+          rdfs:subClassOf :deficiency_nutrition .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#biotin_deficiency
+:biotin_deficiency rdf:type owl:Class ;
+                   rdfs:subClassOf :deficiency_nutrition .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#bladder_exstrophy-epispadias-cloacal_exstrophy_complex
+:bladder_exstrophy-epispadias-cloacal_exstrophy_complex rdf:type owl:Class ;
+                                                        rdfs:subClassOf :Physical .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#botulism
+:botulism rdf:type owl:Class ;
+          rdfs:subClassOf :primary_bacteria .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#brucellosis
+:brucellosis rdf:type owl:Class ;
+             rdfs:subClassOf :primary_bacteria .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#buruli_ulcer
+:buruli_ulcer rdf:type owl:Class ;
+              rdfs:subClassOf :primary_bacteria .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#calcium_metabolism
+:calcium_metabolism rdf:type owl:Class ;
+                    rdfs:subClassOf :mineral_metabolism_disease .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#cardiovascular_cancer
+:cardiovascular_cancer rdf:type owl:Class ;
+                       rdfs:subClassOf [ owl:intersectionOf ( :Cancer
+                                                              [ rdf:type owl:Restriction ;
+                                                                owl:onProperty :affecte_cardiovascular ;
+                                                                owl:allValuesFrom :Cardiovascular
+                                                              ]
+                                                            ) ;
+                                         rdf:type owl:Class
+                                       ] ;
+                       rdfs:comment "cardiovascular cancer affecte Cardiovascular" .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#carotenemia
+:carotenemia rdf:type owl:Class ;
+             rdfs:subClassOf :acquired_metabolic_disease .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#chancroid
+:chancroid rdf:type owl:Class ;
+           rdfs:subClassOf :primary_bacteria .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#chickenpox
+:chickenpox rdf:type owl:Class ;
+            rdfs:subClassOf :Bad_Virus .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#chikungunya
+:chikungunya rdf:type owl:Class ;
+             rdfs:subClassOf :Bad_Virus .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#chlamydia
+:chlamydia rdf:type owl:Class ;
+           rdfs:subClassOf :commensal_bacteria .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#cholera
+:cholera rdf:type owl:Class ;
+         rdfs:subClassOf :primary_bacteria .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#choline_deficiency
+:choline_deficiency rdf:type owl:Class ;
+                    rdfs:subClassOf :deficiency_nutrition .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#chromosomal_disease
+:chromosomal_disease rdf:type owl:Class ;
+                     rdfs:subClassOf :Genetic .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#commensal_bacteria
+:commensal_bacteria rdf:type owl:Class ;
+                    rdfs:subClassOf :Bad_Bacteria .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#cowpox
+:cowpox rdf:type owl:Class ;
+        rdfs:subClassOf :Bad_Virus .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#cryptorchidism
+:cryptorchidism rdf:type owl:Class ;
+                rdfs:subClassOf :Physical .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#deficiency_nutrition
+:deficiency_nutrition rdf:type owl:Class ;
+                      rdfs:subClassOf :nutrition_disease .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#dengue
+:dengue rdf:type owl:Class ;
+        rdfs:subClassOf :Bad_Virus .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#diabetes_mellitus
+:diabetes_mellitus rdf:type owl:Class ;
+                   rdfs:subClassOf :glucose_metabolism_disease .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#dihydropyrimidine_dehydrogenase_deficiency
+:dihydropyrimidine_dehydrogenase_deficiency rdf:type owl:Class ;
+                                            rdfs:subClassOf :inherited_metabolic_disorder .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#diphtheria
+:diphtheria rdf:type owl:Class ;
+            rdfs:subClassOf :primary_bacteria .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#dopamine_beta-hydroxylase_deficiency
+:dopamine_beta-hydroxylase_deficiency rdf:type owl:Class ;
+                                      rdfs:subClassOf :inherited_metabolic_disorder .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#ebola
+:ebola rdf:type owl:Class ;
+       rdfs:subClassOf :Bad_Virus .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#eczema_herpeticum
+:eczema_herpeticum rdf:type owl:Class ;
+                   rdfs:subClassOf :herpes .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#ehrlichiosis
+:ehrlichiosis rdf:type owl:Class ;
+              rdfs:subClassOf :primary_bacteria .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#endocrine_gland_cancer
+:endocrine_gland_cancer rdf:type owl:Class ;
+                        rdfs:subClassOf :Cancer .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#erysipeloid
+:erysipeloid rdf:type owl:Class ;
+             rdfs:subClassOf :primary_bacteria .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#erythema
+:erythema rdf:type owl:Class ;
+          rdfs:subClassOf :Bad_Virus .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#exanthema_subitum
+:exanthema_subitum rdf:type owl:Class ;
+                   rdfs:subClassOf :Bad_Virus .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#folic_acid_deficiency
+:folic_acid_deficiency rdf:type owl:Class ;
+                       rdfs:subClassOf :deficiency_nutrition .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#gas_gangrene
+:gas_gangrene rdf:type owl:Class ;
+              rdfs:subClassOf :commensal_bacteria .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#gastrointestinal_system_cancer
+:gastrointestinal_system_cancer rdf:type owl:Class ;
+                                rdfs:subClassOf :Cancer .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#gastroschisis
+:gastroschisis rdf:type owl:Class ;
+               rdfs:subClassOf :Physical .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#genital_herpes
+:genital_herpes rdf:type owl:Class ;
+                rdfs:subClassOf :herpes .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#gestational_diabetes
+:gestational_diabetes rdf:type owl:Class ;
+                      rdfs:subClassOf :diabetes_mellitus .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#glanders
+:glanders rdf:type owl:Class ;
+          rdfs:subClassOf :primary_bacteria .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#glucose_metabolism_disease
+:glucose_metabolism_disease rdf:type owl:Class ;
+                            rdfs:subClassOf :acquired_metabolic_disease .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#glycerol_kinase_deficiency
+:glycerol_kinase_deficiency rdf:type owl:Class ;
+                            rdfs:subClassOf :inherited_metabolic_disorder .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#gonorrhea
+:gonorrhea rdf:type owl:Class ;
+           rdfs:subClassOf :primary_bacteria .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#granuloma_inguinale
+:granuloma_inguinale rdf:type owl:Class ;
+                     rdfs:subClassOf :primary_bacteria .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#head_and_neck_cancer
+:head_and_neck_cancer rdf:type owl:Class ;
+                      rdfs:subClassOf :Cancer .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#hematologic_cancer
+:hematologic_cancer rdf:type owl:Class ;
+                    rdfs:subClassOf :Cancer .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#hepatitis_A
+:hepatitis_A rdf:type owl:Class ;
+             rdfs:subClassOf :Bad_Virus .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#hepatitis_B
+:hepatitis_B rdf:type owl:Class ;
+             rdfs:subClassOf :Bad_Virus .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#hepatitis_C
+:hepatitis_C rdf:type owl:Class ;
+             rdfs:subClassOf :Bad_Virus .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#hepatitis_D
+:hepatitis_D rdf:type owl:Class ;
+             rdfs:subClassOf :Bad_Virus .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#hepatitis_E
+:hepatitis_E rdf:type owl:Class ;
+             rdfs:subClassOf :Bad_Virus .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#herpangina
+:herpangina rdf:type owl:Class ;
+            rdfs:subClassOf :Bad_Virus .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#herpes
+:herpes rdf:type owl:Class ;
+        rdfs:subClassOf :Bad_Virus .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#herpetic_whitlow
+:herpetic_whitlow rdf:type owl:Class ;
+                  rdfs:subClassOf :herpes .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#hyperglycemia
+:hyperglycemia rdf:type owl:Class ;
+               rdfs:subClassOf :glucose_metabolism_disease .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#hyperinsulinism
+:hyperinsulinism rdf:type owl:Class ;
+                 rdfs:subClassOf :glucose_metabolism_disease .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#hyperprolactinemia
+:hyperprolactinemia rdf:type owl:Class ;
+                    rdfs:subClassOf :acquired_metabolic_disease .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#hyperuricemia
+:hyperuricemia rdf:type owl:Class ;
+               rdfs:subClassOf :acquired_metabolic_disease .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#hypervitaminosis_A
+:hypervitaminosis_A rdf:type owl:Class ;
+                    rdfs:subClassOf :overnutrition .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#hypervitaminosis_D
+:hypervitaminosis_D rdf:type owl:Class ;
+                    rdfs:subClassOf :overnutrition .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#hypoglycemia
+:hypoglycemia rdf:type owl:Class ;
+              rdfs:subClassOf :glucose_metabolism_disease .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#hypokalemia_metabolism
+:hypokalemia_metabolism rdf:type owl:Class ;
+                        rdfs:subClassOf :mineral_metabolism_disease .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#hypospadias
+:hypospadias rdf:type owl:Class ;
+             rdfs:subClassOf :Physical .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#immune_system_cancer
+:immune_system_cancer rdf:type owl:Class ;
+                      rdfs:subClassOf :Cancer .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#immunodeficiency_virus
+:immunodeficiency_virus rdf:type owl:Class ;
+                        rdfs:subClassOf :Bad_Virus .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#imperforate_anus
+:imperforate_anus rdf:type owl:Class ;
+                  rdfs:subClassOf :Physical .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#inclusion_conjunctivitis
+:inclusion_conjunctivitis rdf:type owl:Class ;
+                          rdfs:subClassOf :commensal_bacteria .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#influenza
+:influenza rdf:type owl:Class ;
+           rdfs:subClassOf :Bad_Virus .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#inherited_metabolic_disorder
+:inherited_metabolic_disorder rdf:type owl:Class ;
+                              rdfs:subClassOf :Metabolism .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#integumentary_system_cancer
+:integumentary_system_cancer rdf:type owl:Class ;
+                             rdfs:subClassOf :Cancer .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#iron_deficiency
+:iron_deficiency rdf:type owl:Class ;
+                 rdfs:subClassOf :deficiency_nutrition .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#iron_metabolism
+:iron_metabolism rdf:type owl:Class ;
+                 rdfs:subClassOf :mineral_metabolism_disease .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#lactic_acidosis
+:lactic_acidosis rdf:type owl:Class ;
+                 rdfs:subClassOf :metabolic_acidosis .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#legionellosis
+:legionellosis rdf:type owl:Class ;
+               rdfs:subClassOf :primary_bacteria .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#leprosy
+:leprosy rdf:type owl:Class ;
+         rdfs:subClassOf :primary_bacteria .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#leptospirosis
+:leptospirosis rdf:type owl:Class ;
+               rdfs:subClassOf :primary_bacteria .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#listeriosis
+:listeriosis rdf:type owl:Class ;
+             rdfs:subClassOf :primary_bacteria .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#lyme
+:lyme rdf:type owl:Class ;
+      rdfs:subClassOf :primary_bacteria .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#lymphocytic_choriomeningitis
+:lymphocytic_choriomeningitis rdf:type owl:Class ;
+                              rdfs:subClassOf :Bad_Virus .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#lymphogranuloma_venereum
+:lymphogranuloma_venereum rdf:type owl:Class ;
+                          rdfs:subClassOf :commensal_bacteria .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#massive_obesity
+:massive_obesity rdf:type owl:Class ;
+                 rdfs:subClassOf :obesity .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#measles
+:measles rdf:type owl:Class ;
+         rdfs:subClassOf :Bad_Virus .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#melioidosis
+:melioidosis rdf:type owl:Class ;
+             rdfs:subClassOf :primary_bacteria .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#metabolic_acidosis
+:metabolic_acidosis rdf:type owl:Class ;
+                    rdfs:subClassOf :acquired_metabolic_disease .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#mineral_metabolism_disease
+:mineral_metabolism_disease rdf:type owl:Class ;
+                            rdfs:subClassOf :acquired_metabolic_disease .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#mitochondrial_complex_III_deficiency
+:mitochondrial_complex_III_deficiency rdf:type owl:Class ;
+                                      rdfs:subClassOf :mitochondrial_metabolism .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#mitochondrial_complex_II_deficiency
+:mitochondrial_complex_II_deficiency rdf:type owl:Class ;
+                                     rdfs:subClassOf :mitochondrial_metabolism .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#mitochondrial_complex_I_deficiency
+:mitochondrial_complex_I_deficiency rdf:type owl:Class ;
+                                    rdfs:subClassOf :mitochondrial_metabolism .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#mitochondrial_metabolism
+:mitochondrial_metabolism rdf:type owl:Class ;
+                          rdfs:subClassOf :inherited_metabolic_disorder .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#moderate_obesity
+:moderate_obesity rdf:type owl:Class ;
+                  rdfs:subClassOf :obesity .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#molluscum_contagiosum
+:molluscum_contagiosum rdf:type owl:Class ;
+                       rdfs:subClassOf :Bad_Virus .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#monkeypox
+:monkeypox rdf:type owl:Class ;
+           rdfs:subClassOf :Bad_Virus .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#monogenic_disease
+:monogenic_disease rdf:type owl:Class ;
+                   rdfs:subClassOf :Genetic .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#morbid_obesity
+:morbid_obesity rdf:type owl:Class ;
+                rdfs:subClassOf :obesity .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#musculoskeletal_system_cancer
+:musculoskeletal_system_cancer rdf:type owl:Class ;
+                               rdfs:subClassOf :Cancer .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#neonatal_diabetes
+:neonatal_diabetes rdf:type owl:Class ;
+                   rdfs:subClassOf :diabetes_mellitus .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#nervous_system_cancer
+:nervous_system_cancer rdf:type owl:Class ;
+                       rdfs:subClassOf [ owl:intersectionOf ( :Cancer
+                                                              [ rdf:type owl:Restriction ;
+                                                                owl:onProperty :affecte_nervous_system ;
+                                                                owl:allValuesFrom :Nervous_System
+                                                              ]
+                                                            ) ;
+                                         rdf:type owl:Class
+                                       ] ;
+                       rdfs:comment "nervous_system_cancer affecte Nervous_System" .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#nocardiosis
+:nocardiosis rdf:type owl:Class ;
+             rdfs:subClassOf :opportunistic_bacteria .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#nutrition_disease
+:nutrition_disease rdf:type owl:Class ;
+                   rdfs:subClassOf :acquired_metabolic_disease .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#obesity
+:obesity rdf:type owl:Class ;
+         rdfs:subClassOf :overnutrition .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#omphalocele
+:omphalocele rdf:type owl:Class ;
+             rdfs:subClassOf :Physical .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#opportunistic_bacteria
+:opportunistic_bacteria rdf:type owl:Class ;
+                        rdfs:subClassOf :Bad_Bacteria .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#ornithosis
+:ornithosis rdf:type owl:Class ;
+            rdfs:subClassOf :primary_bacteria .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#overnutrition
+:overnutrition rdf:type owl:Class ;
+               rdfs:subClassOf :nutrition_disease .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#paratyphoid
+:paratyphoid rdf:type owl:Class ;
+             rdfs:subClassOf :primary_bacteria .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#pasteurellosis
+:pasteurellosis rdf:type owl:Class ;
+                rdfs:subClassOf :primary_bacteria .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#pellagra
+:pellagra rdf:type owl:Class ;
+          rdfs:subClassOf :deficiency_nutrition .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#peritoneum_cancer
+:peritoneum_cancer rdf:type owl:Class ;
+                   rdfs:subClassOf :Cancer .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#peroxisomal_deficiency
+:peroxisomal_deficiency rdf:type owl:Class ;
+                        rdfs:subClassOf :inherited_metabolic_disorder .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#pertussis
+:pertussis rdf:type owl:Class ;
+           rdfs:subClassOf :commensal_bacteria .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#pharyngoconjunctival
+:pharyngoconjunctival rdf:type owl:Class ;
+                      rdfs:subClassOf :Bad_Virus .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#phosphorus_metabolism
+:phosphorus_metabolism rdf:type owl:Class ;
+                       rdfs:subClassOf :mineral_metabolism_disease .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#plague
+:plague rdf:type owl:Class ;
+        rdfs:subClassOf :primary_bacteria .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#plasma_protein_deficiency
+:plasma_protein_deficiency rdf:type owl:Class ;
+                           rdfs:subClassOf :inherited_metabolic_disorder .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#poliomyelitis
+:poliomyelitis rdf:type owl:Class ;
+               rdfs:subClassOf :Bad_Virus .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#polydactyly
+:polydactyly rdf:type owl:Class ;
+             rdfs:subClassOf :Physical .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#primary_bacteria
+:primary_bacteria rdf:type owl:Class ;
+                  rdfs:subClassOf :Bad_Bacteria .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#pyridoxine_deficiency
+:pyridoxine_deficiency rdf:type owl:Class ;
+                       rdfs:subClassOf :deficiency_nutrition .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#rabies
+:rabies rdf:type owl:Class ;
+        rdfs:subClassOf :Bad_Virus .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#radioulnar_synostosis
+:radioulnar_synostosis rdf:type owl:Class ;
+                       rdfs:subClassOf :Physical .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#renal-hepatic-pancreatic_dysplasia
+:renal-hepatic-pancreatic_dysplasia rdf:type owl:Class ;
+                                    rdfs:subClassOf :Physical .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#reproductive_organ_cancer
+:reproductive_organ_cancer rdf:type owl:Class ;
+                           rdfs:subClassOf [ owl:intersectionOf ( :Cancer
+                                                                  [ rdf:type owl:Restriction ;
+                                                                    owl:onProperty :affecte_reproductive_system ;
+                                                                    owl:allValuesFrom :Reproductive_System
+                                                                  ]
+                                                                ) ;
+                                             rdf:type owl:Class
+                                           ] .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#respiratory_system_cancer
+:respiratory_system_cancer rdf:type owl:Class ;
+                           rdfs:subClassOf [ owl:intersectionOf ( :Cancer
+                                                                  [ rdf:type owl:Restriction ;
+                                                                    owl:onProperty :affecte_respiratory_system ;
+                                                                    owl:allValuesFrom :Respiratory_System
+                                                                  ]
+                                                                ) ;
+                                             rdf:type owl:Class
+                                           ] .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#retroperitoneal_cancer
+:retroperitoneal_cancer rdf:type owl:Class ;
+                        rdfs:subClassOf :Cancer .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#rheumatic_fever
+:rheumatic_fever rdf:type owl:Class ;
+                 rdfs:subClassOf :Bad_Bacteria .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#rheumatic_myocarditis
+:rheumatic_myocarditis rdf:type owl:Class ;
+                       rdfs:subClassOf :Bad_Bacteria .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#rhinoscleroma
+:rhinoscleroma rdf:type owl:Class ;
+               rdfs:subClassOf :primary_bacteria .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#rubella
+:rubella rdf:type owl:Class ;
+         rdfs:subClassOf :Bad_Virus .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#salmonellosis
+:salmonellosis rdf:type owl:Class ;
+               rdfs:subClassOf :primary_bacteria .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#scurvy
+:scurvy rdf:type owl:Class ;
+        rdfs:subClassOf :deficiency_nutrition .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#sennetsu
+:sennetsu rdf:type owl:Class ;
+          rdfs:subClassOf :primary_bacteria .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#severe_obesity
+:severe_obesity rdf:type owl:Class ;
+                rdfs:subClassOf :obesity .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#shigellosis
+:shigellosis rdf:type owl:Class ;
+             rdfs:subClassOf :primary_bacteria .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#smallpox
+:smallpox rdf:type owl:Class ;
+          rdfs:subClassOf :Bad_Virus .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#sodoku
+:sodoku rdf:type owl:Class ;
+        rdfs:subClassOf :primary_bacteria .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#staphyloenterotoxemia
+:staphyloenterotoxemia rdf:type owl:Class ;
+                       rdfs:subClassOf :primary_bacteria .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#steatitis
+:steatitis rdf:type owl:Class ;
+           rdfs:subClassOf :deficiency_nutrition .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#subacute_sclerosing_panencephalitis
+:subacute_sclerosing_panencephalitis rdf:type owl:Class ;
+                                     rdfs:subClassOf :Bad_Virus .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#swayback
+:swayback rdf:type owl:Class ;
+          rdfs:subClassOf :deficiency_nutrition .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#syphilis
+:syphilis rdf:type owl:Class ;
+          rdfs:subClassOf :primary_bacteria .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#tetanus
+:tetanus rdf:type owl:Class ;
+         rdfs:subClassOf :primary_bacteria .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#thiopurine_S-methyltransferase_deficiency
+:thiopurine_S-methyltransferase_deficiency rdf:type owl:Class ;
+                                           rdfs:subClassOf :inherited_metabolic_disorder .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#thoracic_cancer
+:thoracic_cancer rdf:type owl:Class ;
+                 rdfs:subClassOf :Cancer .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#tick-borne_encephalitis
+:tick-borne_encephalitis rdf:type owl:Class ;
+                         rdfs:subClassOf :Bad_Virus .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#trachoma
+:trachoma rdf:type owl:Class ;
+          rdfs:subClassOf :commensal_bacteria .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#triosephosphate_isomerase_deficiency
+:triosephosphate_isomerase_deficiency rdf:type owl:Class ;
+                                      rdfs:subClassOf :glucose_metabolism_disease .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#tropical_spastic_paraparesis
+:tropical_spastic_paraparesis rdf:type owl:Class ;
+                              rdfs:subClassOf :Bad_Virus .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#tuberculosis
+:tuberculosis rdf:type owl:Class ;
+              rdfs:subClassOf :primary_bacteria .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#tularemia
+:tularemia rdf:type owl:Class ;
+           rdfs:subClassOf :primary_bacteria .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#type_1_diabetes
+:type_1_diabetes rdf:type owl:Class ;
+                 rdfs:subClassOf :diabetes_mellitus .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#type_2_diabetes
+:type_2_diabetes rdf:type owl:Class ;
+                 rdfs:subClassOf :diabetes_mellitus .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#typhoid
+:typhoid rdf:type owl:Class ;
+         rdfs:subClassOf :primary_bacteria .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#typhus
+:typhus rdf:type owl:Class ;
+        rdfs:subClassOf :primary_bacteria .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#urinary_system_cancer
+:urinary_system_cancer rdf:type owl:Class ;
+                       rdfs:subClassOf [ owl:intersectionOf ( :Cancer
+                                                              [ rdf:type owl:Restriction ;
+                                                                owl:onProperty :affecte_urinary_system ;
+                                                                owl:allValuesFrom :Urinary_System
+                                                              ]
+                                                            ) ;
+                                         rdf:type owl:Class
+                                       ] .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#vaccinia
+:vaccinia rdf:type owl:Class ;
+          rdfs:subClassOf :Bad_Virus .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#variola_major
+:variola_major rdf:type owl:Class ;
+               rdfs:subClassOf :smallpox .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#variola_minor
+:variola_minor rdf:type owl:Class ;
+               rdfs:subClassOf :smallpox .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#viral_encephalitis
+:viral_encephalitis rdf:type owl:Class ;
+                    rdfs:subClassOf :Bad_Virus .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#viral_hepatitis
+:viral_hepatitis rdf:type owl:Class ;
+                 rdfs:subClassOf :Bad_Virus .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#viral_infectious_disease
+:viral_infectious_disease rdf:type owl:Class ;
+                          rdfs:subClassOf :Infection .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#viral_pneumonia
+:viral_pneumonia rdf:type owl:Class ;
+                 rdfs:subClassOf :Bad_Virus .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#visceral_heterotaxy
+:visceral_heterotaxy rdf:type owl:Class ;
+                     rdfs:subClassOf :Physical .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#vitaminK_deficiency
+:vitaminK_deficiency rdf:type owl:Class ;
+                     rdfs:subClassOf :deficiency_nutrition .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#vitamin_B12_deficiency
+:vitamin_B12_deficiency rdf:type owl:Class ;
+                        rdfs:subClassOf :inherited_metabolic_disorder .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#yaws
+:yaws rdf:type owl:Class ;
+      rdfs:subClassOf :primary_bacteria .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#yellow_fever
+:yellow_fever rdf:type owl:Class ;
+              rdfs:subClassOf :Bad_Virus .
+
+
+###  http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Meckel's_diverticulum
+<http://www.semanticweb.org/vc816824/ontologies/2018/10/pathology#Meckel's_diverticulum> rdf:type owl:Class ;
+                                                                                         rdfs:subClassOf :Physical .
+
+
+###  Generated by the OWL API (version 5.1.7) https://github.com/owlcs/owlapi/
