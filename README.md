@@ -1,0 +1,2 @@
+# human_pathology_ontology
+The Human pathology ontology in OWL has been developed as a standardized ontology for human disease with the purpose of providing the biomedical community with consistent, reusable and sustainable descriptions of human disease terms, phenotype characteristics and related medical vocabulary disease concepts. This ontology gives you the opportunity to link all those classes : Disease(Cancer, Genetic, Infection, Mental, Metabolism, Physical, Syndrome), Causes(Virus, Bacteria), Cure, Symptoms, Treatment.
