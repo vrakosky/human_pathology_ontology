@@ -17,9 +17,6 @@ This ontology gives you the opportunity to link all those classes :
 - Virus, 
 - Bacteria.
 
-## Symptoms
-- (...)
-
 ## Treatment
 - Cancer treatment, 
 - Genetic treatment,  
@@ -34,3 +31,6 @@ This ontology gives you the opportunity to link all those classes :
 - Vaccination
 - Good habits
 - Bad habits
+
+## Symptoms
+- (...)
